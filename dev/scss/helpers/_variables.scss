@@ -1,0 +1,33 @@
+/* =============
+    Variables
+============= */
+// Define the breakpoints
+// Small tablets and large smartphones
+$screen-sm-min: 456px;
+
+// Small tablets
+$screen-md-min: 768px;
+
+// Large tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large desktops
+$screen-xl-min: 1200px;
+
+// Colors
+// B&W
+$white: #FAFAFA;
+$off-white: #E9E8E7;
+$grey-mid: #454546;
+$grey-dark: #19191A;
+$black: #1A1A1A;
+$blank: (0,0,0,0);
+// PRIMARY
+$primary-dark-blue: #003A4C;
+// SECONDARY
+$secondary-turquoise: #10DAD7;
+$secondary-red: #E60026;
+$secondary-purple: #7140BF;
+// TERTIARY
+$tertiary-amber: #FFBF00;
+$tertiary-green: #21B428;

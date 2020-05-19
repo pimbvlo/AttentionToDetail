@@ -1,0 +1,66 @@
+/* =============
+    Header
+============= */
+header {
+    box-shadow: 0 1px 15px -7px rgba(19, 22, 24, .08), 0 9px 46px 8px rgba(19, 22, 24, .05), 0 24px 38px 3px rgba(19, 22, 24, .06);
+    position: fixed;
+    height: 72px;
+    width: 100%;
+    background-color: $white;
+    z-index: 1000;
+    // @include dark {
+    //     background-color: $black;
+    // }
+    @include lg {
+        height: 80px;
+    }
+
+    > div {
+        grid-area: header;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        aside {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            a {
+                line-height: rem-calc(0);
+
+                img {
+                    height: 40px;
+                    @include padding(16px,0px,16px,0px);
+                }
+
+                img {}
+            }
+            // .cls-1 {
+            //     fill: $purple;
+            //     @include dark {
+            //         fill: $white;
+            //     }
+            // }
+        }
+    }
+
+    #burger-container {
+        // @include lg {
+        //     display: none;
+        // }
+
+        svg {
+            height: 56px;
+            cursor: pointer;
+
+            #burger-outline {
+                stroke: $black;
+            }
+
+            .burger-lines {
+                stroke: $black;
+            }
+        }
+    }
+}

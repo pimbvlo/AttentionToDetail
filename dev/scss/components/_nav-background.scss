@@ -1,0 +1,28 @@
+/* =============
+    Nav Background
+============= */
+#nav-bg {
+    background-color: $grey-mid;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 900;
+    // @include dark {
+    //     background-color: $black;
+    // }
+
+    svg {
+        background-color: $blank;
+
+        circle {
+            fill: $grey-mid;
+            // @include dark {
+            //     fill: $black;
+            // }
+
+        }
+    }
+}
