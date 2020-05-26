@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="303px" height="168px" viewBox="0 0 303 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.583333 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-3">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-4">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-5">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.750000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-6">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.750000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-7">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-8">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.750000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-9">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-10">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.750000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-11">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.750000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-12">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-13">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.750000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-14">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-15">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.583333 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-16">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-17">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.750000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-18">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.750000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.200000003">
+        <g id="Group-3" transform="translate(3.000000, 3.000000)">
+            <g id="Shape-/-Outline-/-Square" transform="translate(54.000000, 0.000000)" stroke="#1A1A1A" stroke-linejoin="round" stroke-width="4.44444444">
+                <rect id="Rectangle-Copy-10" x="0" y="0" width="27" height="27"></rect>
+            </g>
+            <g id="Shape-/-Outline-/-Square" transform="translate(216.000000, 135.000000)" stroke="#1A1A1A" stroke-linejoin="round" stroke-width="4.44444444">
+                <rect id="Rectangle-Copy-10" x="0" y="0" width="27" height="27"></rect>
+            </g>
+            <g id="Shape-/-Dotted-/-Square" transform="translate(270.000000, 108.000000)" stroke="#1A1A1A" stroke-dasharray="4.444444444444445" stroke-linejoin="round" stroke-width="4.44444444">
+                <path d="M27,27 L0,27 L0,0 L27,0 L27,27 Z" id="Rectangle-Copy-13"></path>
+            </g>
+            <g id="Shape-/-Dotted-/-Square" transform="translate(108.000000, 108.000000)" stroke="#1A1A1A" stroke-dasharray="4.444444444444445" stroke-linejoin="round" stroke-width="4.44444444">
+                <path d="M81,27 L0,27 L0,0 L81,0 L81,27 Z" id="Rectangle-Copy-13"></path>
+            </g>
+            <g id="Shape-/-Dotted-/-Square" transform="translate(54.000000, 27.000000)" stroke="#1A1A1A" stroke-dasharray="4.444444444444445" stroke-linejoin="round" stroke-width="4.44444444">
+                <path d="M27,27 L0,27 L0,0 L27,0 L27,27 Z" id="Rectangle-Copy-13"></path>
+            </g>
+            <g filter="url(#filter-1)" fill="#FAFAFA" id="Shape-/-Outline-/-Triangle" stroke-width="4.44444444">
+                <g transform="translate(256.500000, 148.500000) rotate(-180.000000) translate(-256.500000, -148.500000) translate(243.000000, 135.000000)">
+                    <path d="M9.30972222,9.0202685 L9.30972222,17.9797315 L16.6564819,13.5 L9.30972222,9.0202685 Z" id="Triangle-Copy-2" stroke="#1A1A1A" fill="none"></path>
+                </g>
+            </g>
+            <g id="Shape-/-Solid-/-Square" transform="translate(135.000000, 0.000000)" fill="#1A1A1A" stroke="#1A1A1A" stroke-linejoin="round" stroke-width="4.44444444">
+                <rect id="Rectangle-Copy-10" x="0" y="0" width="27" height="54"></rect>
+            </g>
+            <g filter="url(#filter-2)" fill="#FF9500" id="Shape-/-Outline-/-Square" stroke-linejoin="round" stroke-width="4.44444444">
+                <g transform="translate(27.000000, 108.000000)">
+                    <rect id="Rectangle-Copy-10" stroke="#1A1A1A" fill="none" x="0" y="0" width="27" height="54"></rect>
+                </g>
+            </g>
+            <g filter="url(#filter-3)" fill="#FAFAFA" id="Shape-/-Outline-/-Square" stroke-linejoin="round" stroke-width="4.44444444">
+                <g transform="translate(81.000000, 27.000000)">
+                    <rect id="Rectangle-Copy-10" stroke="#1A1A1A" fill="none" x="0" y="0" width="27" height="27"></rect>
+                </g>
+            </g>
+            <g filter="url(#filter-4)" fill="#FAFAFA" id="Shape-/-Outline-/-Square" stroke-linejoin="round" stroke-width="4.44444444">
+                <g transform="translate(189.000000, 108.000000)">
+                    <rect id="Rectangle-Copy-10" stroke="#1A1A1A" fill="none" x="0" y="0" width="27" height="27"></rect>
+                </g>
+            </g>
+            <g filter="url(#filter-5)" fill="#FFBF00" id="Shape-/-Outline-/-Square" stroke-linejoin="round" stroke-width="4.44444444">
+                <g>
+                    <rect id="Rectangle-Copy-10" stroke="#1A1A1A" fill="none" x="0" y="0" width="27" height="27"></rect>
+                </g>
+            </g>
+            <g id="Shape-/-Solid-/-Square" transform="translate(162.000000, 27.000000)" fill="#1A1A1A" stroke="#1A1A1A" stroke-linejoin="round" stroke-width="4.44444444">
+                <rect id="Rectangle-Copy-10" x="0" y="0" width="27" height="27"></rect>
+            </g>
+            <g filter="url(#filter-6)" fill="#FFBF00" id="Shape-/-Solid-/-Square" stroke-linejoin="round" stroke-width="4.44444444">
+                <g transform="translate(243.000000, 108.000000)">
+                    <rect id="Rectangle-Copy-10" stroke="#1A1A1A" fill="#1A1A1A" x="0" y="0" width="27" height="27"></rect>
+                </g>
+            </g>
+            <g id="Shape-/-Solid-/-Square" transform="translate(27.000000, 27.000000)" fill="#1A1A1A" stroke="#1A1A1A" stroke-linejoin="round" stroke-width="4.44444444">
+                <rect id="Rectangle-Copy-10" x="0" y="0" width="27" height="27"></rect>
+            </g>
+            <g filter="url(#filter-7)" fill="#FAFAFA" id="Shape-/-Outline-/-Triangle" stroke-width="4.44444444">
+                <g transform="translate(0.000000, 27.000000)">
+                    <path d="M9.30972222,9.0202685 L9.30972222,17.9797315 L16.6564819,13.5 L9.30972222,9.0202685 Z" id="Triangle-Copy-2" stroke="#1A1A1A" fill="none"></path>
+                </g>
+            </g>
+            <g id="Shape-/-Outline-/-Triangle" transform="translate(81.000000, 27.000000)" stroke="#1A1A1A" stroke-width="4.44444444">
+                <path d="M9.30972222,9.0202685 L9.30972222,17.9797315 L16.6564819,13.5 L9.30972222,9.0202685 Z" id="Triangle-Copy-2"></path>
+            </g>
+            <g id="Shape-/-Solid-/-Triangle" transform="translate(94.500000, 13.500000) rotate(-270.000000) translate(-94.500000, -13.500000) translate(81.000000, 0.000000)" fill="#1A1A1A">
+                <polygon id="Triangle-Copy-2" points="20.925 13.5 7.0875 21.9375 7.0875 5.0625"></polygon>
+            </g>
+            <g filter="url(#filter-8)" fill="#FFBF00" id="Shape-/-Outline-/-Triangle" stroke-width="4.44444444">
+                <g transform="translate(189.000000, 108.000000)">
+                    <path d="M9.30972222,9.0202685 L9.30972222,17.9797315 L16.6564819,13.5 L9.30972222,9.0202685 Z" id="Triangle-Copy-2" stroke="#1A1A1A" fill="none"></path>
+                </g>
+            </g>
+            <g id="Shape-/-Outline-/-Triangle" transform="translate(0.000000, 108.000000)" stroke="#1A1A1A" stroke-width="4.44444444">
+                <path d="M9.30972222,9.0202685 L9.30972222,17.9797315 L16.6564819,13.5 L9.30972222,9.0202685 Z" id="Triangle-Copy-2"></path>
+            </g>
+            <g id="Shape-/-Solid-/-Square" transform="translate(0.000000, 135.000000)" fill="#1A1A1A" stroke="#1A1A1A" stroke-linejoin="round" stroke-width="4.44444444">
+                <rect id="Rectangle-Copy-10" x="0" y="0" width="27" height="27"></rect>
+            </g>
+            <g id="Shape-/-Solid-/-Square" transform="translate(54.000000, 108.000000)" fill="#1A1A1A" stroke="#1A1A1A" stroke-linejoin="round" stroke-width="4.44444444">
+                <rect id="Rectangle-Copy-10" x="0" y="0" width="54" height="27"></rect>
+            </g>
+            <g id="Shape-/-Outline-/-Square" transform="translate(135.000000, 135.000000)" stroke="#1A1A1A" stroke-linejoin="round" stroke-width="4.44444444">
+                <rect id="Rectangle-Copy-10" x="0" y="0" width="27" height="27"></rect>
+            </g>
+            <g filter="url(#filter-9)" fill="#FAFAFA" id="Shape-/-Outline-/-Triangle" stroke-width="4.44444444">
+                <g transform="translate(148.500000, 121.500000) rotate(-180.000000) translate(-148.500000, -121.500000) translate(135.000000, 108.000000)">
+                    <path d="M9.30972222,9.0202685 L9.30972222,17.9797315 L16.6564819,13.5 L9.30972222,9.0202685 Z" id="Triangle-Copy-2" stroke="#1A1A1A" fill="none"></path>
+                </g>
+            </g>
+            <g filter="url(#filter-10)" fill="#FFBF00" id="Shape-/-Outline-/-Triangle" stroke-width="4.44444444">
+                <g transform="translate(283.500000, 40.500000) rotate(-180.000000) translate(-283.500000, -40.500000) translate(270.000000, 27.000000)">
+                    <path d="M9.30972222,9.0202685 L9.30972222,17.9797315 L16.6564819,13.5 L9.30972222,9.0202685 Z" id="Triangle-Copy-2" stroke="#1A1A1A" fill="none"></path>
+                </g>
+            </g>
+            <g filter="url(#filter-11)" fill="#FFBF00" id="Shape-/-Solid-/-Triangle">
+                <g transform="translate(175.500000, 13.500000) rotate(-270.000000) translate(-175.500000, -13.500000) translate(162.000000, 0.000000)">
+                    <polygon id="Triangle-Copy-2" fill="#1A1A1A" points="20.925 13.5 7.0875 21.9375 7.0875 5.0625"></polygon>
+                </g>
+            </g>
+            <g id="Shape-/-Solid-/-Triangle" transform="translate(256.500000, 121.500000) rotate(-270.000000) translate(-256.500000, -121.500000) translate(243.000000, 108.000000)" fill="#1A1A1A">
+                <polygon id="Triangle-Copy-2" points="20.925 13.5 7.0875 21.9375 7.0875 5.0625"></polygon>
+            </g>
+            <g filter="url(#filter-12)" fill="#FAFAFA" id="Shape-/-Solid-/-Triangle">
+                <g transform="translate(175.500000, 40.500000) rotate(-270.000000) translate(-175.500000, -40.500000) translate(162.000000, 27.000000)">
+                    <polygon id="Triangle-Copy-2" fill="#1A1A1A" points="20.925 13.5 7.0875 21.9375 7.0875 5.0625"></polygon>
+                </g>
+            </g>
+            <g filter="url(#filter-13)" fill="#FFBF00" id="Shape-/-Solid-/-Triangle">
+                <g transform="translate(121.500000, 148.500000) rotate(-270.000000) translate(-121.500000, -148.500000) translate(108.000000, 135.000000)">
+                    <polygon id="Triangle-Copy-2" fill="#1A1A1A" points="20.925 13.5 7.0875 21.9375 7.0875 5.0625"></polygon>
+                </g>
+            </g>
+            <g filter="url(#filter-14)" fill="#FAFAFA" id="Shape-/-Outline-/-Square" stroke-linejoin="round" stroke-width="4.44444444">
+                <g transform="translate(243.000000, 0.000000)">
+                    <rect id="Rectangle-Copy-10" stroke="#1A1A1A" fill="none" x="0" y="0" width="27" height="27"></rect>
+                </g>
+            </g>
+            <g filter="url(#filter-15)" fill="#FF9500" id="Shape-/-Outline-/-Square" stroke-linejoin="round" stroke-width="4.44444444">
+                <g transform="translate(81.000000, 135.000000)">
+                    <rect id="Rectangle-Copy-10" stroke="#1A1A1A" fill="none" x="0" y="0" width="27" height="27"></rect>
+                </g>
+            </g>
+            <g filter="url(#filter-16)" fill="#FAFAFA" id="Shape-/-Solid-/-Triangle">
+                <g transform="translate(67.500000, 121.500000) rotate(-270.000000) translate(-67.500000, -121.500000) translate(54.000000, 108.000000)">
+                    <polygon id="Triangle-Copy-2" fill="#1A1A1A" points="20.925 13.5 7.0875 21.9375 7.0875 5.0625"></polygon>
+                </g>
+            </g>
+            <g filter="url(#filter-17)" fill="#FFBF00" id="Shape-/-Solid-/-Square" stroke-linejoin="round" stroke-width="4.44444444">
+                <g transform="translate(108.000000, 27.000000)">
+                    <rect id="Rectangle-Copy-10" stroke="#1A1A1A" fill="#1A1A1A" x="0" y="0" width="27" height="27"></rect>
+                </g>
+            </g>
+            <g filter="url(#filter-18)" fill="#FFBF00" id="Shape-/-Outline-/-Square" stroke-linejoin="round" stroke-width="4.44444444">
+                <g transform="translate(189.000000, 27.000000)">
+                    <rect id="Rectangle-Copy-10" stroke="#1A1A1A" fill="none" x="0" y="0" width="54" height="27"></rect>
+                </g>
+            </g>
+            <g id="Shape-/-Solid-/-Square" transform="translate(243.000000, 27.000000)" fill="#1A1A1A" stroke="#1A1A1A" stroke-linejoin="round" stroke-width="4.44444444">
+                <rect id="Rectangle-Copy-10" x="0" y="0" width="27" height="27"></rect>
+            </g>
+            <g id="Shape-/-Dotted-/-Square" transform="translate(189.000000, 0.000000)" stroke="#1A1A1A" stroke-dasharray="4.444444444444445" stroke-linejoin="round" stroke-width="4.44444444">
+                <path d="M27,27 L0,27 L0,0 L27,0 L27,27 Z" id="Rectangle-Copy-13"></path>
+            </g>
+        </g>
+    </g>
+</svg>

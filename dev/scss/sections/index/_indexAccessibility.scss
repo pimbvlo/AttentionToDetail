@@ -1,0 +1,30 @@
+/* =============
+    Index Accessibility
+============= */
+#indexAccessibility {
+    @include sm {
+        grid-template-columns: auto 80% auto;
+    }
+    @include md {
+        grid-template-columns: auto 480px auto;
+    }
+    @include lg {
+        grid-template-columns: auto 504px auto;
+    }
+    @include xl {
+        grid-template-columns: auto 504px auto;
+    }
+
+    > div {
+        article {
+            h2 {
+                color: $primary-dark-blue;
+            }
+
+            p {
+                color: $primary-dark-blue;
+                font-weight: 500;
+            }
+        }
+    }
+}

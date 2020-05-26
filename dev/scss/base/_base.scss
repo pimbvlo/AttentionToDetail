@@ -32,7 +32,6 @@ ul {
         grid-template-columns: auto 1104px auto;
     }
 
-
     > div {
         grid-area: content;
     }
@@ -62,5 +61,17 @@ ul {
     @include xl {
         margin: 96px 0;
     }
+}
 
+.content-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 16px;
+    @include md{
+        grid-gap: 24px;
+        grid-template-columns: repeat(6,1fr);
+    }
+    @include lg{
+        grid-template-columns: repeat(9,1fr);
+    }
 }

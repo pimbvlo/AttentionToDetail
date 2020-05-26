@@ -1,0 +1,141 @@
+/* =============
+    Index Type
+============= */
+#indexType {
+    background-color: $off-white;
+
+    > div {
+        article {
+            h2 {
+                color: $primary-dark-blue;
+            }
+
+            h3 {
+                color: $primary-dark-blue;
+            }
+
+            div:nth-child(3) {
+                grid-template-rows: repeat(8,auto);
+                grid-template-areas: "p1" "svg1" "svg2" "p2" "p3" "svg3" "p4" "source";
+                @include md {
+                    grid-template-rows: repeat(7,auto);
+                    grid-template-areas: "p1 p1 p1 svg1 svg1 svg1" ". . . svg1 svg1 svg1" "p2 p2 p2 svg2 svg2 svg2" "p3 p3 p3 svg2 svg2 svg2" "svg3 svg3 svg3 . . ." "svg3 svg3 svg3 p4 p4 p4" ". . . source source source";
+                }
+                @include lg {
+                    grid-template-rows: repeat(6,auto);
+                    grid-template-areas:
+                    "p1 p1 p1 svg1 svg1 svg1 svg1 . ."
+                    "p2 p2 p2 svg1 svg1 svg1 svg1 . ."
+                    "p3 p3 p3 svg1 svg1 svg1 svg1 . ."
+                    "svg3 svg3 svg3 . svg2 svg2 svg2 svg2 ."
+                    "svg3 svg3 svg3 . . p4 p4 p4 ."
+                    ". . . . . source source source .";
+                }
+
+                p {
+                    span {
+                        color: $primary-dark-blue;
+                    }
+
+                    a {}
+                }
+
+                div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    // height: 100%;
+                    svg {
+                        width: 80%;
+                        @include md {
+                            height: 100%;
+                            width: auto;
+                        }
+                    }
+                }
+
+                p:nth-child(1) {
+                    grid-area: p1;
+                }
+
+                div:nth-child(2) {
+                    grid-area: svg1;
+                    justify-content: flex-end;
+                    @include md {
+                        align-items: flex-start;
+                        justify-content: flex-start;
+                    }
+
+                    svg {
+                        @include md {
+                            width: 200px;
+                        }
+                        @include lg {
+                            height: auto;
+                            width: 304px;
+                        }
+                    }
+                }
+
+                div:nth-child(3) {
+                    grid-area: svg2;
+                    justify-content: flex-start;
+                    @include md {
+                        align-items: flex-start;
+                        justify-content: flex-end;
+                    }
+                    @include md {
+                        align-items: flex-end;
+                        justify-content: flex-end;
+                    }
+
+                    svg {
+                        @include md {
+                            width: 200px;
+                        }
+                        @include lg {
+                            width: 304px;
+                            height: auto;
+
+                        }
+                    }
+                }
+
+                p:nth-child(4) {
+                    grid-area: p2;
+                }
+
+                p:nth-child(5) {
+                    grid-area: p3;
+                }
+
+                div:nth-child(6) {
+                    grid-area: svg3;
+                    @include md {
+                        justify-content: flex-start;
+                    }
+                    @include lg{
+                        align-items: flex-start;
+                    }
+
+                    svg {
+                        @include md {
+                            height: 152px;
+                        }
+                        @include lg {
+                            height: 280px;
+                        }
+                    }
+                }
+
+                p:nth-child(7) {
+                    grid-area: p4;
+                }
+
+                p:nth-child(8) {
+                    grid-area: source;
+                }
+            }
+        }
+    }
+}

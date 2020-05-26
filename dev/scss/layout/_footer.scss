@@ -3,85 +3,56 @@
 ============= */
 footer {
     color: $white;
-    background-color: $grey-mid;
-    // @include dark{
-    //     background-color: $black;
-    // }
-
-    div {
-        article {
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-template-areas: "l l" "a c";
-            grid-gap: 16px;
-            @include sm {
-                grid-template-areas: "l ." "a c";
-            }
-            @include md {
-                grid-gap: 16px;
-                grid-template-columns: repeat(3,1fr);
-                grid-template-areas: "l . ." "a . c";
-            }
-
-            figure {
-                grid-area: l;
-
-                img {
-                    width: 144px;
-                    @include lg{
-                        width: 168px;
-
-                    }
+    background-color: $grey-dark;
+    >div{
+        aside{
+            @include margin(null, null, 8px, null);
+            svg{
+                width: 64px;
+                .cls-2, #D{
+                    fill: $white;
                 }
             }
-
-            ul {
+        }
+        article{
+            @include md{
                 display: flex;
+                align-items: flex-end;
                 justify-content: space-between;
-                align-items: center;
-                grid-area: a;
-                width: 160px;
 
-                @include sm {
-                    @include margin(null, 32px, null, null);
-                }
-                @include md {
-                    @include margin(null, 56px, null, null);
-                    width: 194px;
-                }
-                @include lg {
-                    @include margin(null, 120px, null, null);
-                }
-
-                li {
-                    a {
+            }
+            ul{
+                li{
+                    @include margin(null,null,8px,null);
+                    a{
+                        display: block;
                         color: $white;
-                        font-size: rem-calc(32);
-                        @include padding(8px,8px,8px,8px);
-                        @include md {
-                            font-size: rem-calc(40);
-                            @include padding(2px,2px,2px,2px);
+                        @include padding(24px, null, 24px, null);
+                        @include lg{
+                            @include padding(20px, null, 20px, null);
+
                         }
 
-                        i {}
-                    }
+                        h3{
+                            font-weight: 600;
+                            line-height: rem-calc(0);
+                            @include margin(0px,0px,0px,0px);
 
-                    a:link,
-                    a:visited {
+                        }
+                    }
+                    a:link, a:visited{
                         color: $white;
                     }
-
-                    a:active,
-                    a:hover {
-                        // color: $orange;
+                    a:hover, a:active{
+                        color: $tertiary-amber;
                     }
                 }
+                li:last-of-type{
+                    @include margin(0px,0px,0px,0px);
+                }
             }
+            p{
 
-            p {
-                grid-area: c;
-                text-align: right;
-                font-size: rem-calc(16);
             }
         }
     }

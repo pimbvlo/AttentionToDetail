@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="296px" height="152px" viewBox="0 0 296 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4 Copy</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.441667 0 0 0 0 0.250000 0 0 0 0 0.750000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 0 0.980000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-3">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.441667 0 0 0 0 0.250000 0 0 0 0 0.750000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-4">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.441667 0 0 0 0 0.250000 0 0 0 0 0.750000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012" stroke-linejoin="round">
+        <g id="Group-4-Copy" transform="translate(4.000000, 4.000000)" stroke-width="6.4">
+            <g filter="url(#filter-1)" fill="#7140BF" id="Shape-/-Outline-/-Lines" stroke-linecap="round">
+                <g transform="translate(120.000000, 24.000000) rotate(-270.000000) translate(-120.000000, -24.000000) translate(96.000000, 0.000000)">
+                    <line x1="0" y1="0" x2="48" y2="0" id="Path" stroke="#1A1A1A" fill="none"></line>
+                    <line x1="0" y1="12" x2="48" y2="12" id="Path-Copy-3" stroke="#1A1A1A" fill="none"></line>
+                    <line x1="0" y1="24" x2="48" y2="24" id="Path-Copy-2" stroke="#1A1A1A" fill="none"></line>
+                    <line x1="0" y1="36" x2="48" y2="36" id="Path-Copy" stroke="#1A1A1A" fill="none"></line>
+                    <line x1="48" y1="48" x2="0" y2="48" id="Path" stroke="#1A1A1A" fill="none"></line>
+                </g>
+            </g>
+            <g filter="url(#filter-2)" fill="#FAFAFA" id="Shape-/-Solid-/-Square">
+                <g>
+                    <rect id="Rectangle-Copy-10" stroke="#1A1A1A" fill="#1A1A1A" x="0" y="0" width="48" height="48"></rect>
+                </g>
+            </g>
+            <g id="Shape-/-Solid-/-Rectangle" transform="translate(192.000000, 96.000000)" fill="#1A1A1A" stroke="#1A1A1A">
+                <polygon id="Rectangle-Copy-14" points="96 48 0 48 0 0 96 0"></polygon>
+            </g>
+            <g filter="url(#filter-3)" fill="#7140BF" id="Pattern-/-2ZigZag-/-Uneven" stroke-linecap="round">
+                <g transform="translate(192.000000, 96.000000)">
+                    <polyline id="Path-2" stroke="#1A1A1A" fill="none" points="9 23.4 20.1428571 11.4 31.2857143 23.4 42.4285714 11.4 53.5714286 23.4 64.7142857 11.4 75.8571429 23.4 87 11.4"></polyline>
+                    <polyline id="Path-2-Copy" stroke="#1A1A1A" fill="none" points="9 36.6 20.1428571 24.6 31.2857143 36.6 42.4285714 24.6 53.5714286 36.6 64.7142857 24.6 75.8571429 36.6 87 24.6"></polyline>
+                </g>
+            </g>
+            <g id="Pattern-/-2ZigZag-/-Uneven" transform="translate(192.000000, 0.000000)" stroke="#1A1A1A" stroke-linecap="round">
+                <polyline id="Path-2" points="9 23.4 20.1428571 11.4 31.2857143 23.4 42.4285714 11.4 53.5714286 23.4 64.7142857 11.4 75.8571429 23.4 87 11.4"></polyline>
+                <polyline id="Path-2-Copy" points="9 36.6 20.1428571 24.6 31.2857143 36.6 42.4285714 24.6 53.5714286 36.6 64.7142857 24.6 75.8571429 36.6 87 24.6"></polyline>
+            </g>
+            <g id="Shape-/-Outline-/-Square" transform="translate(48.000000, 0.000000)" stroke="#1A1A1A">
+                <rect id="Rectangle-Copy-10" x="0" y="0" width="48" height="48"></rect>
+            </g>
+            <g filter="url(#filter-4)" fill="#7140BF" id="Shape-/-Outline-/-Lines" stroke-linecap="round">
+                <g transform="translate(24.000000, 120.000000) rotate(-270.000000) translate(-24.000000, -120.000000) translate(0.000000, 96.000000)">
+                    <line x1="0" y1="0" x2="48" y2="0" id="Path" stroke="#1A1A1A" fill="none"></line>
+                    <line x1="0" y1="12" x2="48" y2="12" id="Path-Copy-3" stroke="#1A1A1A" fill="none"></line>
+                    <line x1="0" y1="24" x2="48" y2="24" id="Path-Copy-2" stroke="#1A1A1A" fill="none"></line>
+                    <line x1="0" y1="36" x2="48" y2="36" id="Path-Copy" stroke="#1A1A1A" fill="none"></line>
+                    <line x1="48" y1="48" x2="0" y2="48" id="Path" stroke="#1A1A1A" fill="none"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,101 @@
+/* =============
+    Index Medium
+============= */
+#indexMedium {
+    background-color: $off-white;
+
+    > div {
+        article {
+            h2 {
+                color: $primary-dark-blue;
+            }
+
+            ul {
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                grid-gap: 16px;
+                @include md {
+                    grid-template-columns: repeat(3,1fr);
+                }
+
+                li {
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 16px;
+                    background-color: $primary-dark-blue;
+                    transition: all 0.25s;
+                    h2 {
+                        margin: 0px;
+                        line-height: rem-calc(0);
+                        a {
+                            margin: 0px;
+                            height: 100%;
+                            color: $white;
+
+                        }
+
+                        a:link,
+                        a:visited {
+                            color: $white;
+                        }
+
+                    }
+                    a {
+                        height: 144px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        @include md {
+                            height: 168px;
+                        }
+                        @include lg {
+                            height: 280px;
+                        }
+
+                        h2 {
+                            color: $white;
+                            font-weight: 700;
+                            line-height: rem-calc(0);
+                            @include md {
+                                font-size: rem-calc(24);
+                                letter-spacing: rem-calc(0.38);
+                            }
+                            @include lg {
+                                font-size: rem-calc(32);
+                                letter-spacing: rem-calc(0.72);
+                            }
+
+                        }
+                    }
+                }
+
+                li:active,
+                li:hover {
+                    opacity: 0.8;
+                }
+
+                li:nth-child(1) {
+                    background-image: url("../img/index/button1.svg");
+                }
+
+                li:nth-child(2) {
+                    background-image: url("../img/index/button2.svg");
+                    background-color: #AC0321;
+                }
+
+                li:nth-child(3) {
+                    background-image: url("../img/index/button3.svg");
+                    background-color: #382468;
+                    @include lg {
+                        background-position: 10% center;
+                    }
+                }
+            }
+        }
+    }
+}

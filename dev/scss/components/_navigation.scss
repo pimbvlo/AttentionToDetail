@@ -20,7 +20,7 @@
                 color: $white;
                 cursor: pointer;
                 text-decoration: none;
-                transition: 0.25s;
+                transition: all 0.25s;
                 width: 100%;
                 text-align: right;
                 @include margin(0px, 0px, 32px, 0);

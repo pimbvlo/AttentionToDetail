@@ -21,7 +21,7 @@
 		},
 	"/deploy/img/global/Favicon.png": {
 		"ft": 32768,
-		"iS": 4902,
+		"iS": 4932,
 		"oA": 0,
 		"oAP": "/deploy/img/global/Favicon.png",
 		"oF": 0,
@@ -60,6 +60,58 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/index/button1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/index/button1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/index/button2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/index/button2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/index/button3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/index/button3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/index/indexHello.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/indexHello.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/index/indexHero.png": {
+		"ft": 32768,
+		"iS": 17055194,
+		"oA": 0,
+		"oAP": "/deploy/img/index/indexHero.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -91,7 +143,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/global/footer.html",
 		"oF": 0
 		},
@@ -150,6 +202,110 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/index/img/indexColor1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/index/img/indexColor1.html",
+		"oF": 0
+		},
+	"/dev/index/img/indexColor2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/index/img/indexColor2.html",
+		"oF": 0
+		},
+	"/dev/index/img/indexHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/index/img/indexHero.html",
+		"oF": 0
+		},
+	"/dev/index/img/indexImage.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/index/img/indexImage.html",
+		"oF": 0
+		},
+	"/dev/index/img/indexType1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/index/img/indexType1.html",
+		"oF": 0
+		},
+	"/dev/index/img/indexType2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/index/img/indexType2.html",
+		"oF": 0
+		},
+	"/dev/index/img/indexType3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/index/img/indexType3.html",
+		"oF": 0
+		},
+	"/dev/index/indexAccessibility.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/index/indexAccessibility.html",
+		"oF": 0
+		},
+	"/dev/index/indexColor.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/index/indexColor.html",
+		"oF": 0
+		},
+	"/dev/index/indexHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/index/indexHero.html",
+		"oF": 0
+		},
+	"/dev/index/indexImage.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/index/indexImage.html",
+		"oF": 0
+		},
+	"/dev/index/indexMedium.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/index/indexMedium.html",
+		"oF": 0
+		},
+	"/dev/index/indexType.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/index/indexType.html",
+		"oF": 0
 		},
 	"/dev/js/burger/burger-click.js": {
 		"bF": 0,
@@ -360,6 +516,84 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/sections/index/_indexAccessibility.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/index/_indexAccessibility.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/index/_indexColor.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/index/_indexColor.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/index/_indexHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/index/_indexHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/index/_indexImage.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/index/_indexImage.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/index/_indexMedium.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/index/_indexMedium.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/index/_indexType.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/index/_indexType.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -382,8 +616,8 @@
 	"creationDate": 611607498.77719998,
 	"displayValue": "AttentionToDetail",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-koamaru",
-	"iconImageWasSetByUser": 0
+	"iconImageName": "/deploy/img/global/Favicon.png",
+	"iconImageWasSetByUser": 1
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
