@@ -19,6 +19,82 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/environment/envBestPractices.png": {
+		"ft": 32768,
+		"iS": 934448,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envBestPractices.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/environment/envButtonHalftone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/environment/envButtonHalftone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/environment/envHero.png": {
+		"ft": 32768,
+		"iS": 948945,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envHero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/environment/envTactileMessaging1.png": {
+		"ft": 32768,
+		"iS": 940099,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envTactileMessaging1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/environment/envTactileMessaging2.png": {
+		"ft": 32768,
+		"iS": 686031,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envTactileMessaging2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/environment/envVisualMessaging1.png": {
+		"ft": 32768,
+		"iS": 706531,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envVisualMessaging1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/environment/envVisualMessaging2.png": {
+		"ft": 32768,
+		"iS": 722413,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envVisualMessaging2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/global/Favicon.png": {
 		"ft": 32768,
 		"iS": 4932,
@@ -109,6 +185,92 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/print/printButtonHalftone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/print/printButtonHalftone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/print/printHero.png": {
+		"ft": 32768,
+		"iS": 1148580,
+		"oA": 0,
+		"oAP": "/deploy/img/print/printHero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/web/printHero.png": {
+		"ft": 32768,
+		"iS": 1043569,
+		"oA": 0,
+		"oAP": "/deploy/img/web/printHero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/web/webButtonHalftone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/web/webButtonHalftone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/web/webCardFiona.png": {
+		"ft": 32768,
+		"iS": 310500,
+		"oA": 0,
+		"oAP": "/deploy/img/web/webCardFiona.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/web/webCardHalli.png": {
+		"ft": 32768,
+		"iS": 31288,
+		"oA": 0,
+		"oAP": "/deploy/img/web/webCardHalli.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/web/webCardPablo.png": {
+		"ft": 32768,
+		"iS": 48213,
+		"oA": 0,
+		"oAP": "/deploy/img/web/webCardPablo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/web/webVideoEditing.png": {
+		"ft": 32768,
+		"iS": 820864,
+		"oA": 0,
+		"oAP": "/deploy/img/web/webVideoEditing.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
