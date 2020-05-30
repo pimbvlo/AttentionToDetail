@@ -1,0 +1,53 @@
+/* =============
+    Web Fun Facts
+============= */
+#webFunFacts {
+    background-color: $off-white;
+    @include sm {
+        grid-template-columns: auto 80% auto;
+    }
+    @include md {
+        grid-template-columns: auto 480px auto;
+    }
+    @include lg {
+        grid-template-columns: auto 504px auto;
+    }
+    @include xl {
+        grid-template-columns: auto 504px auto;
+    }
+
+    > div {
+        article {
+            h2 {
+                color: $secondary-red-dark2;
+            }
+
+            div:nth-child(2) {
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                grid-gap: 16px;
+                grid-template-rows: repeat(5,auto);
+                @include md {
+                    grid-gap: 24px;
+                }
+                p {
+                    span {
+                        color: $secondary-red-dark2;
+                    }
+
+                    a {
+                        color: $secondary-red-dark2;
+
+                    }
+                    a:link, a:visited{
+                        color: $secondary-red-dark2;
+                    }
+                    a:hover, a:active{
+                        color: $secondary-red;
+                    }
+
+                }
+            }
+        }
+    }
+}

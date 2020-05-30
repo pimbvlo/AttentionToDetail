@@ -1,0 +1,77 @@
+/* =============
+    Web Resources
+============= */
+#webResources {
+    background-color: $secondary-red-dark2;
+
+    > div {
+        article {
+            h2 {
+                color: $white;
+            }
+
+            ul {
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                grid-gap: 16px;
+                @include sm{
+                    grid-template-columns: repeat(2,1fr);
+                }
+                @include md{
+                    grid-gap: 24px;
+                }
+                @include lg{
+                    grid-template-columns: repeat(3,1fr);
+                }
+
+                li {
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-image: url("../img/web/webButtonHalftone.svg");
+                    background-color: $secondary-red-dark1;
+                    border-radius: 104px;
+                    // display: flex;
+                    // align-items: center;
+                    // justify-content: center;
+                    box-shadow: 0 5px 3px -3px rgba(19, 22, 24, .06), 0 3px 14px 2px rgba(19, 22, 24, .12), 0 8px 10px 1px rgba(19, 22, 24, .04);
+                    width: 100%;
+                    transition: 0.2s ease-in-out;
+                    p {
+                        // display: flex;
+                        // align-items: center;
+                        // justify-content: center;
+                        a {
+                            @include padding(16px,auto,16px,auto);
+                            font-size: rem-calc(24);
+                            font-weight: 700;
+                            text-align: center;
+                            display: block;
+                            height: 100%;
+                            width: 100%;
+                            display: block;
+                            color: $white;
+                        }
+                    }
+                }
+                @include lg {
+                    li:hover {
+                        box-shadow: none;
+                        transform: translate(0px, 4px) scale(0.98);
+
+                        a {
+                            opacity: 1;
+                        }
+                    }
+
+                    li:active {
+                        background-color: $secondary-red;
+
+                        transition: all 0.1s;
+                        opacity: 0.9;
+                    }
+                }
+            }
+        }
+    }
+}

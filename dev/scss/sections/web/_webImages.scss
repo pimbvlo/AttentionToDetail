@@ -1,0 +1,99 @@
+/* =============
+    Web Images
+============= */
+#webImages {
+    > div {
+        article {
+            h2 {
+                color: $secondary-red-dark2;
+            }
+
+            div:nth-child(2) {
+                grid-template-rows: repeat(5,auto);
+                grid-template-areas: "p1" "p2" "svg1" "p3" "source";
+                @include md {
+                    grid-template-rows: repeat(4,auto);
+                    grid-template-areas:
+                    "p1 p1 p1 . . ."
+                    "p2 p2 p2 svg1 svg1 svg1"
+                    "p3 p3 p3 svg1 svg1 svg1"
+                    "source source source . . .";
+                }
+                @include lg {
+                    grid-template-rows: repeat(5,auto);
+
+                    grid-template-areas:
+                    "p1 p1 p1 . . . . . ."
+                    "p2 p2 p2 . . . . . ."
+                    "svg1 svg1 svg1 svg1 svg1 . . . ."
+                    "svg1 svg1 svg1 svg1 svg1 p3 p3 p3 ."
+                    ". . . . . source source source .";
+
+                }
+
+                p {
+                    span {
+                        color: $secondary-red-dark2;
+                    }
+
+                    a {
+                        color: $secondary-red-dark2;
+                    }
+
+                    a:link,
+                    a:visited {
+                        color: $secondary-red-dark2;
+                    }
+
+                    a:active,
+                    a:hover {
+                        color: $secondary-red;
+                    }
+                }
+
+                div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    svg {
+                        width: 80%;
+                        @include md {
+                            height: 104px;
+                            width: auto;
+                        }
+                    }
+                }
+
+                p:nth-child(1) {
+                    grid-area: p1;
+                }
+                p:nth-child(2) {
+                    grid-area: p2;
+                }
+                div:nth-child(3) {
+                    grid-area: svg1;
+                    @include md{
+                        justify-content: flex-start;
+                        align-items: flex-start;
+
+                    }
+                    svg {
+                        @include md{
+                            height: 176px;
+                        }
+                        @include lg{
+                            height: 280px;
+                        }
+                    }
+                }
+
+                p:nth-child(4) {
+                    grid-area: p3;
+                }
+                p:nth-child(5) {
+                    grid-area: source;
+                }
+            }
+        }
+    }
+}

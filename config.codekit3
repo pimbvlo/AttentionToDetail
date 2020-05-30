@@ -9,16 +9,6 @@
 	],
 "creatorBuild": "32147",
 "files": {
-	"/deploy/css/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/deploy/img/environment/envBestPractices.png": {
 		"ft": 32768,
 		"iS": 934448,
@@ -45,6 +35,17 @@
 		"iS": 948945,
 		"oA": 0,
 		"oAP": "/deploy/img/environment/envHero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/environment/envHero2.png": {
+		"ft": 32768,
+		"iS": 1189151,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envHero2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -209,17 +210,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/web/printHero.png": {
-		"ft": 32768,
-		"iS": 1043569,
-		"oA": 0,
-		"oAP": "/deploy/img/web/printHero.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/deploy/img/web/webButtonHalftone.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -263,6 +253,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/web/webHero.png": {
+		"ft": 32768,
+		"iS": 1043569,
+		"oA": 0,
+		"oAP": "/deploy/img/web/webHero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/web/webVideoEditing.png": {
 		"ft": 32768,
 		"iS": 820864,
@@ -293,6 +294,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/medium/web.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/medium/web.html",
+		"oF": 0
+		},
 	"/dev/global/burger-container.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -309,12 +318,76 @@
 		"oAP": "/dev/global/footer.html",
 		"oF": 0
 		},
-	"/dev/global/head.kit": {
+	"/dev/global/head-components/css-main-level.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/global/head.html",
+		"oAP": "/dev/global/head-components/css-main-level.html",
+		"oF": 0
+		},
+	"/dev/global/head-components/css-medium.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head-components/css-medium.html",
+		"oF": 0
+		},
+	"/dev/global/head-components/favicon-medium.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head-components/favicon-medium.html",
+		"oF": 0
+		},
+	"/dev/global/head-components/favicon.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head-components/favicon.html",
+		"oF": 0
+		},
+	"/dev/global/head-components/font-awesome.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head-components/font-awesome.html",
+		"oF": 0
+		},
+	"/dev/global/head-components/fonts.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head-components/fonts.html",
+		"oF": 0
+		},
+	"/dev/global/head-components/meta.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head-components/meta.html",
+		"oF": 0
+		},
+	"/dev/global/head-main-level.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head-main-level.html",
+		"oF": 0
+		},
+	"/dev/global/head-medium.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head-medium.html",
 		"oF": 0
 		},
 	"/dev/global/header.kit": {
@@ -534,6 +607,118 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/medium/web/img/webAnimation1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/web/img/webAnimation1.html",
+		"oF": 0
+		},
+	"/dev/medium/web/img/webBestPractices1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/web/img/webBestPractices1.html",
+		"oF": 0
+		},
+	"/dev/medium/web/img/webBestPractices2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/web/img/webBestPractices2.html",
+		"oF": 0
+		},
+	"/dev/medium/web/img/webBestPractices3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/web/img/webBestPractices3.html",
+		"oF": 0
+		},
+	"/dev/medium/web/img/webImages1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/web/img/webImages1.html",
+		"oF": 0
+		},
+	"/dev/medium/web/img/webVideo1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/web/img/webVideo1.html",
+		"oF": 0
+		},
+	"/dev/medium/web/webAnimation.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/web/webAnimation.html",
+		"oF": 0
+		},
+	"/dev/medium/web/webBestPractices.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/web/webBestPractices.html",
+		"oF": 0
+		},
+	"/dev/medium/web/webFunFacts.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/web/webFunFacts.html",
+		"oF": 0
+		},
+	"/dev/medium/web/webHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/web/webHero.html",
+		"oF": 0
+		},
+	"/dev/medium/web/webImages.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/web/webImages.html",
+		"oF": 0
+		},
+	"/dev/medium/web/webResources.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/web/webResources.html",
+		"oF": 0
+		},
+	"/dev/medium/web/webUXLeaders.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/web/webUXLeaders.html",
+		"oF": 0
+		},
+	"/dev/medium/web/webVideo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/web/webVideo.html",
+		"oF": 0
 		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
@@ -756,6 +941,110 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/sections/web/_webAnimation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/web/_webAnimation.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/web/_webBestPractices.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/web/_webBestPractices.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/web/_webFunFacts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/web/_webFunFacts.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/web/_webHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/web/_webHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/web/_webImages.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/web/_webImages.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/web/_webResources.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/web/_webResources.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/web/_webUXLeaders.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/web/_webUXLeaders.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/web/_webVideo.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/web/_webVideo.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -768,6 +1057,14 @@
 		"oF": 2,
 		"oS": 0,
 		"sct": 0
+		},
+	"/dev/web.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/medium/web.html",
+		"oF": 2
 		}
 	},
 "hooks": [
@@ -777,7 +1074,7 @@
 "projectAttributes": {
 	"creationDate": 611607498.77719998,
 	"displayValue": "AttentionToDetail",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "/deploy/img/global/Favicon.png",
 	"iconImageWasSetByUser": 1
 	},

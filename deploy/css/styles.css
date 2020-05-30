@@ -500,6 +500,7 @@ h2 {
     font-size: 2.5rem;
     letter-spacing: 0.04rem;
     line-height: 3rem;
+    margin-bottom: 16px;
   }
 }
 @media (min-width: 992px) {
@@ -507,6 +508,7 @@ h2 {
     font-size: 3rem;
     letter-spacing: 0.045rem;
     line-height: 4rem;
+    margin-bottom: 32px;
   }
 }
 
@@ -556,6 +558,7 @@ a {
   font-weight: 600;
   text-decoration: none;
   transition: all 0.15s ease-in-out;
+  text-transform: uppercase;
 }
 
 a:link, a:visited {
@@ -780,7 +783,7 @@ textarea {
     Nav Background
 ============= */
 #nav-bg {
-  background-color: #454546;
+  background-color: #19191A;
   height: 50px;
   overflow: hidden;
   position: fixed;
@@ -793,7 +796,7 @@ textarea {
   background-color: 0, 0, 0, 0;
 }
 #nav-bg svg circle {
-  fill: #454546;
+  fill: #19191A;
 }
 
 /* =============
@@ -1036,6 +1039,7 @@ footer > div article ul li:last-of-type {
 @media (min-width: 768px) {
   #indexMedium > div article ul {
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
   }
 }
 #indexMedium > div article ul li {
@@ -1047,14 +1051,15 @@ footer > div article ul li:last-of-type {
   align-items: center;
   border-radius: 16px;
   background-color: #003A4C;
-  transition: all 0.25s;
+  box-shadow: 0 5px 3px -3px rgba(19, 22, 24, 0.06), 0 3px 14px 2px rgba(19, 22, 24, 0.12), 0 8px 10px 1px rgba(19, 22, 24, 0.04);
+  transition: 0.2s ease-in-out;
 }
 #indexMedium > div article ul li h2 {
-  margin: 0px;
+  margin: 0;
   line-height: 0;
 }
 #indexMedium > div article ul li h2 a {
-  margin: 0px;
+  margin: 0;
   height: 100%;
   color: #FAFAFA;
 }
@@ -1096,10 +1101,6 @@ footer > div article ul li:last-of-type {
     letter-spacing: 0.045rem;
   }
 }
-#indexMedium > div article ul li:active,
-#indexMedium > div article ul li:hover {
-  opacity: 0.8;
-}
 #indexMedium > div article ul li:nth-child(1) {
   background-image: url("../img/index/button1.svg");
 }
@@ -1114,6 +1115,19 @@ footer > div article ul li:last-of-type {
 @media (min-width: 992px) {
   #indexMedium > div article ul li:nth-child(3) {
     background-position: 10% center;
+  }
+}
+@media (min-width: 992px) {
+  #indexMedium > div article ul li:hover {
+    box-shadow: 0 10px 8px -8px rgba(19, 22, 24, 0.04), 0 8px 19px 7px rgba(19, 22, 24, 0.1), 0 13px 15px 6px rgba(19, 22, 24, 0.02);
+    transform: translate(0px, -4px) scale(1.02);
+  }
+  #indexMedium > div article ul li:hover a {
+    opacity: 1;
+  }
+  #indexMedium > div article ul li:active {
+    transition: all 0.1s;
+    opacity: 0.85;
   }
 }
 
@@ -1415,4 +1429,651 @@ footer > div article ul li:last-of-type {
 }
 #indexImage > div article div:nth-child(3) p:nth-child(5) {
   grid-area: source;
+}
+
+/* =============
+    Web Hero
+============= */
+#webHero {
+  height: 56vh;
+  background-color: #E60026;
+  background-image: url("../img/web/webHero.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  #webHero {
+    height: 64vh;
+    background-position: center 20%;
+  }
+}
+#webHero > div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+/* =============
+    Web Best Practices
+============= */
+#webBestPractices > div article h2 {
+  color: #72051B;
+}
+#webBestPractices > div article div:nth-child(2) {
+  grid-template-rows: repeat(11, auto);
+  grid-template-areas: "p1" "svg1" "p2" "p3" "p4" "svg2" "p5" "p6" "p7" "svg3" "source";
+}
+@media (min-width: 768px) {
+  #webBestPractices > div article div:nth-child(2) {
+    grid-template-rows: repeat(10, auto);
+    grid-template-areas: "p1 p1 p1 svg1 svg1 svg1" "p2 p2 p2 svg1 svg1 svg1" "p3 p3 p3 svg1 svg1 svg1" "p4 p4 p4 . . ." "svg2 svg2 svg2 . . ." "svg2 svg2 svg2 p5 p5 p5" "svg2 svg2 svg2 p6 p6 p6" "svg2 svg2 svg2 p7 p7 p7" ". . . svg3 svg3 svg3" ". . . source source source";
+  }
+}
+@media (min-width: 992px) {
+  #webBestPractices > div article div:nth-child(2) {
+    grid-template-rows: repeat(10, auto);
+    grid-template-areas: "p1 p1 p1 svg1 svg1 svg1 svg1 svg1 ." "p2 p2 p2 svg1 svg1 svg1 svg1 svg1 ." "p3 p3 p3 svg1 svg1 svg1 svg1 svg1 ." "p4 p4 p4 . . . . . ." ". svg2 svg2 svg2 svg2 . . . ." ". svg2 svg2 svg2 svg2 . p5 p5 p5" ". svg2 svg2 svg2 svg2 . p6 p6 p6" ". . . . . . p7 p7 p7" ". . . . . svg3 svg3 svg3 svg3" ". . . . . . source source source";
+  }
+}
+#webBestPractices > div article div:nth-child(2) p span {
+  color: #72051B;
+}
+#webBestPractices > div article div:nth-child(2) p a {
+  color: #72051B;
+}
+#webBestPractices > div article div:nth-child(2) p a:link,
+#webBestPractices > div article div:nth-child(2) p a:visited {
+  color: #72051B;
+}
+#webBestPractices > div article div:nth-child(2) p a:active,
+#webBestPractices > div article div:nth-child(2) p a:hover {
+  color: #E60026;
+}
+#webBestPractices > div article div:nth-child(2) div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#webBestPractices > div article div:nth-child(2) div svg {
+  width: 80%;
+}
+@media (min-width: 768px) {
+  #webBestPractices > div article div:nth-child(2) div svg {
+    height: 160px;
+    width: auto;
+  }
+}
+#webBestPractices > div article div:nth-child(2) p:nth-child(1) {
+  grid-area: p1;
+}
+#webBestPractices > div article div:nth-child(2) div:nth-child(2) {
+  grid-area: svg1;
+}
+@media (min-width: 768px) {
+  #webBestPractices > div article div:nth-child(2) div:nth-child(2) {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 768px) {
+  #webBestPractices > div article div:nth-child(2) div:nth-child(2) svg {
+    height: 240px;
+  }
+}
+@media (min-width: 992px) {
+  #webBestPractices > div article div:nth-child(2) div:nth-child(2) svg {
+    height: 256px;
+  }
+}
+#webBestPractices > div article div:nth-child(2) p:nth-child(3) {
+  grid-area: p2;
+}
+#webBestPractices > div article div:nth-child(2) p:nth-child(4) {
+  grid-area: p3;
+}
+#webBestPractices > div article div:nth-child(2) p:nth-child(5) {
+  grid-area: p4;
+}
+#webBestPractices > div article div:nth-child(2) div:nth-child(6) {
+  grid-area: svg2;
+}
+@media (min-width: 992px) {
+  #webBestPractices > div article div:nth-child(2) div:nth-child(6) {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 768px) {
+  #webBestPractices > div article div:nth-child(2) div:nth-child(6) svg {
+    height: 344px;
+  }
+}
+@media (min-width: 992px) {
+  #webBestPractices > div article div:nth-child(2) div:nth-child(6) svg {
+    height: 400px;
+  }
+}
+#webBestPractices > div article div:nth-child(2) p:nth-child(7) {
+  grid-area: p5;
+}
+#webBestPractices > div article div:nth-child(2) p:nth-child(8) {
+  grid-area: p6;
+}
+#webBestPractices > div article div:nth-child(2) p:nth-child(9) {
+  grid-area: p7;
+}
+#webBestPractices > div article div:nth-child(2) div:nth-child(10) {
+  grid-area: svg3;
+  justify-content: flex-end;
+}
+@media (min-width: 992px) {
+  #webBestPractices > div article div:nth-child(2) div:nth-child(10) {
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 992px) {
+  #webBestPractices > div article div:nth-child(2) div:nth-child(10) svg {
+    height: 264px;
+  }
+}
+#webBestPractices > div article div:nth-child(2) p:nth-child(11) {
+  grid-area: source;
+}
+
+/* =============
+    Web Fun Facts
+============= */
+#webFunFacts {
+  background-color: #E9E8E7;
+}
+@media (min-width: 456px) {
+  #webFunFacts {
+    grid-template-columns: auto 80% auto;
+  }
+}
+@media (min-width: 768px) {
+  #webFunFacts {
+    grid-template-columns: auto 480px auto;
+  }
+}
+@media (min-width: 992px) {
+  #webFunFacts {
+    grid-template-columns: auto 504px auto;
+  }
+}
+@media (min-width: 1200px) {
+  #webFunFacts {
+    grid-template-columns: auto 504px auto;
+  }
+}
+#webFunFacts > div article h2 {
+  color: #72051B;
+}
+#webFunFacts > div article div:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 16px;
+  grid-template-rows: repeat(5, auto);
+}
+@media (min-width: 768px) {
+  #webFunFacts > div article div:nth-child(2) {
+    grid-gap: 24px;
+  }
+}
+#webFunFacts > div article div:nth-child(2) p span {
+  color: #72051B;
+}
+#webFunFacts > div article div:nth-child(2) p a {
+  color: #72051B;
+}
+#webFunFacts > div article div:nth-child(2) p a:link, #webFunFacts > div article div:nth-child(2) p a:visited {
+  color: #72051B;
+}
+#webFunFacts > div article div:nth-child(2) p a:hover, #webFunFacts > div article div:nth-child(2) p a:active {
+  color: #E60026;
+}
+
+/* =============
+    Web Animation
+============= */
+#webAnimation > div article h2 {
+  color: #72051B;
+}
+#webAnimation > div article div:nth-child(2) {
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: "p1" "p2" "svg1" "p3" "source";
+}
+@media (min-width: 768px) {
+  #webAnimation > div article div:nth-child(2) {
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "p1 p1 p1 . . ." "p2 p2 p2 svg1 svg1 svg1" "p3 p3 p3 svg1 svg1 svg1" "source source source . . .";
+  }
+}
+@media (min-width: 992px) {
+  #webAnimation > div article div:nth-child(2) {
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "p1 p1 p1 . . . . . ." "p2 p2 p2 svg1 svg1 svg1 svg1 svg1 svg1" ". . . svg1 svg1 svg1 svg1 svg1 svg1" "p3 p3 p3 . . . . . ." "source source source . . . . . .";
+  }
+}
+#webAnimation > div article div:nth-child(2) p span {
+  color: #72051B;
+}
+#webAnimation > div article div:nth-child(2) p a {
+  color: #72051B;
+}
+#webAnimation > div article div:nth-child(2) p a:link,
+#webAnimation > div article div:nth-child(2) p a:visited {
+  color: #72051B;
+}
+#webAnimation > div article div:nth-child(2) p a:active,
+#webAnimation > div article div:nth-child(2) p a:hover {
+  color: #E60026;
+}
+#webAnimation > div article div:nth-child(2) div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#webAnimation > div article div:nth-child(2) div svg {
+  width: 80%;
+}
+@media (min-width: 768px) {
+  #webAnimation > div article div:nth-child(2) div svg {
+    height: 104px;
+    width: auto;
+  }
+}
+#webAnimation > div article div:nth-child(2) p:nth-child(1) {
+  grid-area: p1;
+}
+#webAnimation > div article div:nth-child(2) p:nth-child(2) {
+  grid-area: p2;
+}
+#webAnimation > div article div:nth-child(2) div:nth-child(3) {
+  grid-area: svg1;
+}
+@media (min-width: 768px) {
+  #webAnimation > div article div:nth-child(2) div:nth-child(3) {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 992px) {
+  #webAnimation > div article div:nth-child(2) div:nth-child(3) {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 992px) {
+  #webAnimation > div article div:nth-child(2) div:nth-child(3) svg {
+    height: 144px;
+  }
+}
+#webAnimation > div article div:nth-child(2) p:nth-child(4) {
+  grid-area: p3;
+}
+#webAnimation > div article div:nth-child(2) p:nth-child(5) {
+  grid-area: source;
+}
+
+/* =============
+    Web Video
+============= */
+#webVideo {
+  background-color: #E9E8E7;
+}
+#webVideo > div article h2 {
+  color: #72051B;
+}
+#webVideo > div article div:nth-child(2) {
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: "p1" "p2" "p3" "svg1" "source";
+}
+@media (min-width: 768px) {
+  #webVideo > div article div:nth-child(2) {
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "p1 p1 p1 . . ." "p2 p2 p2 svg1 svg1 svg1" "p3 p3 p3 svg1 svg1 svg1" "source source source . . .";
+  }
+}
+@media (min-width: 992px) {
+  #webVideo > div article div:nth-child(2) {
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "p1 p1 p1 . . . . . ." "p2 p2 p2 . . . . . ." "svg1 svg1 svg1 svg1 svg1 svg1 . . ." "svg1 svg1 svg1 svg1 svg1 svg1 p3 p3 p3" ". . . . . . source source source";
+  }
+}
+#webVideo > div article div:nth-child(2) p span {
+  color: #72051B;
+}
+#webVideo > div article div:nth-child(2) p a {
+  color: #72051B;
+}
+#webVideo > div article div:nth-child(2) p a:link,
+#webVideo > div article div:nth-child(2) p a:visited {
+  color: #72051B;
+}
+#webVideo > div article div:nth-child(2) p a:active,
+#webVideo > div article div:nth-child(2) p a:hover {
+  color: #E60026;
+}
+#webVideo > div article div:nth-child(2) div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#webVideo > div article div:nth-child(2) div svg {
+  width: 80%;
+}
+@media (min-width: 768px) {
+  #webVideo > div article div:nth-child(2) div svg {
+    height: 104px;
+    width: auto;
+  }
+}
+#webVideo > div article div:nth-child(2) p:nth-child(1) {
+  grid-area: p1;
+}
+#webVideo > div article div:nth-child(2) p:nth-child(2) {
+  grid-area: p2;
+}
+#webVideo > div article div:nth-child(2) p:nth-child(3) {
+  grid-area: p3;
+}
+#webVideo > div article div:nth-child(2) div:nth-child(4) {
+  grid-area: svg1;
+}
+@media (min-width: 768px) {
+  #webVideo > div article div:nth-child(2) div:nth-child(4) {
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+}
+@media (min-width: 992px) {
+  #webVideo > div article div:nth-child(2) div:nth-child(4) {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+}
+@media (min-width: 768px) {
+  #webVideo > div article div:nth-child(2) div:nth-child(4) svg {
+    height: 144px;
+  }
+}
+@media (min-width: 992px) {
+  #webVideo > div article div:nth-child(2) div:nth-child(4) svg {
+    height: 280px;
+  }
+}
+#webVideo > div article div:nth-child(2) p:nth-child(5) {
+  grid-area: source;
+}
+
+/* =============
+    Web Images
+============= */
+#webImages > div article h2 {
+  color: #72051B;
+}
+#webImages > div article div:nth-child(2) {
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: "p1" "p2" "svg1" "p3" "source";
+}
+@media (min-width: 768px) {
+  #webImages > div article div:nth-child(2) {
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "p1 p1 p1 . . ." "p2 p2 p2 svg1 svg1 svg1" "p3 p3 p3 svg1 svg1 svg1" "source source source . . .";
+  }
+}
+@media (min-width: 992px) {
+  #webImages > div article div:nth-child(2) {
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "p1 p1 p1 . . . . . ." "p2 p2 p2 . . . . . ." "svg1 svg1 svg1 svg1 svg1 . . . ." "svg1 svg1 svg1 svg1 svg1 p3 p3 p3 ." ". . . . . source source source .";
+  }
+}
+#webImages > div article div:nth-child(2) p span {
+  color: #72051B;
+}
+#webImages > div article div:nth-child(2) p a {
+  color: #72051B;
+}
+#webImages > div article div:nth-child(2) p a:link,
+#webImages > div article div:nth-child(2) p a:visited {
+  color: #72051B;
+}
+#webImages > div article div:nth-child(2) p a:active,
+#webImages > div article div:nth-child(2) p a:hover {
+  color: #E60026;
+}
+#webImages > div article div:nth-child(2) div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#webImages > div article div:nth-child(2) div svg {
+  width: 80%;
+}
+@media (min-width: 768px) {
+  #webImages > div article div:nth-child(2) div svg {
+    height: 104px;
+    width: auto;
+  }
+}
+#webImages > div article div:nth-child(2) p:nth-child(1) {
+  grid-area: p1;
+}
+#webImages > div article div:nth-child(2) p:nth-child(2) {
+  grid-area: p2;
+}
+#webImages > div article div:nth-child(2) div:nth-child(3) {
+  grid-area: svg1;
+}
+@media (min-width: 768px) {
+  #webImages > div article div:nth-child(2) div:nth-child(3) {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 768px) {
+  #webImages > div article div:nth-child(2) div:nth-child(3) svg {
+    height: 176px;
+  }
+}
+@media (min-width: 992px) {
+  #webImages > div article div:nth-child(2) div:nth-child(3) svg {
+    height: 280px;
+  }
+}
+#webImages > div article div:nth-child(2) p:nth-child(4) {
+  grid-area: p3;
+}
+#webImages > div article div:nth-child(2) p:nth-child(5) {
+  grid-area: source;
+}
+
+/* =============
+    Web UXLeaders
+============= */
+#webUXLeaders {
+  background-color: #E9E8E7;
+}
+#webUXLeaders > div article h2 {
+  color: #72051B;
+}
+#webUXLeaders > div article ul {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 16px;
+  grid-template-areas: "pablo" "halli" "fiona";
+}
+@media (min-width: 768px) {
+  #webUXLeaders > div article ul {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    grid-template-areas: "pablo halli" "fiona fiona";
+  }
+}
+@media (min-width: 992px) {
+  #webUXLeaders > div article ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "pablo halli fiona";
+  }
+}
+#webUXLeaders > div article ul li {
+  background-color: #FAFAFA;
+  border-radius: 16px;
+}
+#webUXLeaders > div article ul li figure {
+  border-radius: 16px 16px 0 0;
+  height: 200px;
+  background-color: #F28092;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (min-width: 456px) {
+  #webUXLeaders > div article ul li figure {
+    height: 400px;
+  }
+}
+@media (min-width: 768px) {
+  #webUXLeaders > div article ul li figure {
+    height: 240px;
+  }
+}
+@media (min-width: 992px) {
+  #webUXLeaders > div article ul li figure {
+    height: 216px;
+  }
+}
+@media (min-width: 1200px) {
+  #webUXLeaders > div article ul li figure {
+    height: 240px;
+  }
+}
+#webUXLeaders > div article ul li div {
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+}
+@media (min-width: 456px) {
+  #webUXLeaders > div article ul li div {
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+  }
+}
+#webUXLeaders > div article ul li:nth-child(1) {
+  grid-area: pablo;
+}
+#webUXLeaders > div article ul li:nth-child(1) figure {
+  background-image: url("../img/web/webCardPablo.png");
+  background-size: 140% auto;
+  background-position: 80% top;
+}
+@media (min-width: 768px) {
+  #webUXLeaders > div article ul li:nth-child(1) figure {
+    background-size: 150% auto;
+  }
+}
+#webUXLeaders > div article ul li:nth-child(2) {
+  grid-area: halli;
+}
+#webUXLeaders > div article ul li:nth-child(2) figure {
+  background-image: url("../img/web/webCardHalli.png");
+  background-size: 200% auto;
+  background-position: 60% top;
+}
+#webUXLeaders > div article ul li:nth-child(3) {
+  grid-area: fiona;
+}
+@media (min-width: 768px) {
+  #webUXLeaders > div article ul li:nth-child(3) {
+    margin-bottom: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0px;
+  }
+}
+@media (min-width: 992px) {
+  #webUXLeaders > div article ul li:nth-child(3) {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+}
+#webUXLeaders > div article ul li:nth-child(3) figure {
+  background-image: url("../img/web/webCardFiona.png");
+  background-size: 140% auto;
+  background-position: 50% 20%;
+}
+
+/* =============
+    Web Resources
+============= */
+#webResources {
+  background-color: #72051B;
+}
+#webResources > div article h2 {
+  color: #FAFAFA;
+}
+#webResources > div article ul {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 16px;
+}
+@media (min-width: 456px) {
+  #webResources > div article ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  #webResources > div article ul {
+    grid-gap: 24px;
+  }
+}
+@media (min-width: 992px) {
+  #webResources > div article ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+#webResources > div article ul li {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/web/webButtonHalftone.svg");
+  background-color: #AC0321;
+  border-radius: 104px;
+  box-shadow: 0 5px 3px -3px rgba(19, 22, 24, 0.06), 0 3px 14px 2px rgba(19, 22, 24, 0.12), 0 8px 10px 1px rgba(19, 22, 24, 0.04);
+  width: 100%;
+  transition: 0.2s ease-in-out;
+}
+#webResources > div article ul li p a {
+  padding-bottom: 16px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 16px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+  height: 100%;
+  width: 100%;
+  display: block;
+  color: #FAFAFA;
+}
+@media (min-width: 992px) {
+  #webResources > div article ul li:hover {
+    box-shadow: none;
+    transform: translate(0px, 4px) scale(0.98);
+  }
+  #webResources > div article ul li:hover a {
+    opacity: 1;
+  }
+  #webResources > div article ul li:active {
+    background-color: #E60026;
+    transition: all 0.1s;
+    opacity: 0.9;
+  }
 }
