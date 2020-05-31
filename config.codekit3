@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "32147",
 "files": {
+	"/deploy/css/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/deploy/css/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/deploy/img/environment/envBestPractices.png": {
 		"ft": 32768,
 		"iS": 934448,
@@ -294,6 +304,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/medium/print.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/medium/print.html",
+		"oF": 0
+		},
 	"/deploy/medium/web.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -420,6 +438,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/global/nav-background.html",
+		"oF": 0
+		},
+	"/dev/global/navigation-medium.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/navigation-medium.html",
 		"oF": 0
 		},
 	"/dev/global/navigation.kit": {
@@ -603,10 +629,58 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/scripts-min.js",
-		"oF": 0,
+		"oAP": "/deploy/js/scripts-min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/medium/print/img/printBestPractices1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/print/img/printBestPractices1.html",
+		"oF": 0
+		},
+	"/dev/medium/print/img/printBestPractices2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/print/img/printBestPractices2.html",
+		"oF": 0
+		},
+	"/dev/medium/print/img/printBestPractices3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/print/img/printBestPractices3.html",
+		"oF": 0
+		},
+	"/dev/medium/print/printBestPractices.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/print/printBestPractices.html",
+		"oF": 0
+		},
+	"/dev/medium/print/printHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/print/printHero.html",
+		"oF": 0
+		},
+	"/dev/medium/print/printResources.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/print/printResources.html",
+		"oF": 0
 		},
 	"/dev/medium/web/img/webAnimation1.kit": {
 		"cB": 0,
@@ -720,6 +794,14 @@
 		"oAP": "/dev/medium/web/webVideo.html",
 		"oF": 0
 		},
+	"/dev/print.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/medium/print.html",
+		"oF": 2
+		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -768,6 +850,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/components/_cards.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/components/_cards.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -937,6 +1032,45 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/index/_indexType.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/print/_printBestPractices.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/print/_printBestPractices.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/print/_printHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/print/_printHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/print/_printResources.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/print/_printResources.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1514,7 +1648,7 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8193,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -1841,7 +1975,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -2577,7 +2711,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "gsap",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

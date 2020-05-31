@@ -41,23 +41,59 @@ lineToLines.to("#top-line", {
 var staggerNav = gsap.timeline({
     paused: true
 });
-staggerNav.to("#nav-bg", {
-        duration: burgerSpeed + (burgerSpeed / 8),
-        scale: 40,
-        alpha: 0.99
-    })
-    .to("#nav-bg svg circle", {
-        duration: burgerSpeed,
-        alpha: 0.95
-    }, "-=burgerSpeed")
-    .to("#sm-nav ul li", {
-        duration: burgerSpeed / 4,
-        stagger: 0.1,
-        alpha: 1,
-        y: 10,
-        display: "initial"
-    }, "-=0.15");
+if (navigationWidth < 990) {
+    staggerNav.to("#nav-bg", {
+            duration: burgerSpeed + (burgerSpeed / 8),
+            scale: 40,
+            alpha: 0.99
+        })
+        .to("#nav-bg svg circle", {
+            duration: burgerSpeed,
+            alpha: 0.95
+        }, "-=burgerSpeed")
+        .to("#sm-nav ul li", {
+            duration: burgerSpeed / 4,
+            stagger: 0.1,
+            alpha: 1,
+            y: 10,
+            display: "initial"
+        }, "-=0.15");
 
+} else {
+    staggerNav.to("#nav-bg", {
+            duration: burgerSpeed + (burgerSpeed / 8),
+            scale: 60,
+            alpha: 0.99
+        })
+        .to("#nav-bg svg circle", {
+            duration: burgerSpeed,
+            alpha: 0.95
+        }, "-=burgerSpeed")
+        .to("#sm-nav ul li", {
+            duration: burgerSpeed / 4,
+            stagger: 0.1,
+            alpha: 1,
+            y: 10,
+            display: "initial"
+        }, "-=0.15");
+
+}
+// staggerNav.to("#nav-bg", {
+//         duration: burgerSpeed + (burgerSpeed / 8),
+//         scale: 40,
+//         alpha: 0.99
+//     })
+//     .to("#nav-bg svg circle", {
+//         duration: burgerSpeed,
+//         alpha: 0.95
+//     }, "-=burgerSpeed")
+//     .to("#sm-nav ul li", {
+//         duration: burgerSpeed / 4,
+//         stagger: 0.1,
+//         alpha: 1,
+//         y: 10,
+//         display: "initial"
+//     }, "-=0.15");
 $('#burger-container').on("click", burgerClicked);
 
 function burgerClicked() {

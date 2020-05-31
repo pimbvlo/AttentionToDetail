@@ -1,8 +1,8 @@
 /* =============
-    Web Resources
+    Print Resources
 ============= */
-#webResources {
-    background-color: $secondary-red-dark2;
+#printResources {
+    background-color: $primary-dark-blue-dark2;
 
     > div {
         article {
@@ -12,7 +12,8 @@
 
             ul {
                 li {
-                    background-image: url("../img/web/webButtonHalftone.svg");
+                    background-image: url("../img/print/printButtonHalftone.svg");
+                    background-color: $primary-dark-blue;
 
                     p {
                         a {
@@ -21,14 +22,14 @@
                 }
                 li:link,
                 li:visited {
-                    background-color: $secondary-red-dark2;
+                    background-color: $primary-dark-blue;
 
                     p {
                     }
                 }
                 @include lg {
                     li:active {
-                        background-color: $secondary-red;
+                        background-color: $secondary-turquoise-dark2;
                     }
                 }
             }

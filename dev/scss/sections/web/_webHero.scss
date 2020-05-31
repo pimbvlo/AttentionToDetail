@@ -2,28 +2,20 @@
     Web Hero
 ============= */
 #webHero {
-    height: 56vh;
     background-color: $secondary-red;
     background-image: url("../img/web/webHero.png");
     background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    @include lg{
-        height: 64vh;
-
-        background-position: center 20%;
+    @include sm{
+        background-position: left top;
     }
-    > div{
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-start;
+    @include lg {
+        height: 64vh;
+        background-position: left 20%;
+    }
 
-        article{
-                h1{
-
-                }
-
-
+    > div {
+        article {
+            h1 {}
         }
     }
 }

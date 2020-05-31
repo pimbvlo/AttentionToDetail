@@ -11,6 +11,7 @@
 
 // Components Styles
 @import "components/_buttons";
+@import "components/_cards";
 @import "components/_forms";
 @import "components/_navigation";
 @import "components/_nav-background";
@@ -36,3 +37,7 @@
 @import "sections/web/_webImages";
 @import "sections/web/_webUXLeaders";
 @import "sections/web/_webResources";
+// PRINT
+@import "sections/print/_printHero";
+@import "sections/print/_printBestPractices";
+@import "sections/print/_printResources";

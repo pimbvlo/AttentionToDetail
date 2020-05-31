@@ -1,0 +1,39 @@
+/* =============
+    Cards
+============= */
+.card-person {
+	background-color: $white;
+	border-radius: 16px;
+
+	figure {
+		border-radius: 16px 16px 0 0;
+		height: 28vh;
+		min-height: 200px;
+		background-color: $secondary-red-light2;
+		background-position: center;
+		background-repeat: no-repeat;
+		@include sm {
+			height: 400px;
+		}
+		@include md {
+			height: 240px;
+		}
+		@include lg {
+			height: 216px;
+		}
+		@include xl {
+			height: 240px;
+		}
+	}
+
+	div {
+		@include padding(16px,16px,16px,16px);
+		@include sm {
+			@include padding(24px,24px,24px,24px);
+		}
+
+		p:nth-child(2) {}
+
+		p:nth-child(3) {}
+	}
+}

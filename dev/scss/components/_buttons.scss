@@ -2,83 +2,68 @@
     Buttons
 ============= */
 .btn {
-    align-items: center;
-    border-radius: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $blank;
+    border-radius: 104px;
     box-shadow: 0 5px 3px -3px rgba(19, 22, 24, .06), 0 3px 14px 2px rgba(19, 22, 24, .12), 0 8px 10px 1px rgba(19, 22, 24, .04);
-    display: flex;
-    justify-content: center;
-    transition: 0.2s ease-in-out;
     width: 100%;
+    transition: all 0.2s ease-in-out;
 
-    > a {
-        @include padding(12px, 24px, 12px, 24px);
-        align-items: center;
-        color: $white;
-        display: flex;
-        font-size: rem-calc(24);
-        font-weight: 600;
-        justify-content: center;
-        text-transform: uppercase;
-        width: 100%;
-        @include md {
-            @include padding(16px, 24px, 16px, 24px);
-        }
-
-        i {
+    p {
+        a {
+            @include padding(16px,auto,16px,auto);
             font-size: rem-calc(24);
+            font-weight: 700;
+            text-align: center;
+            display: block;
+            height: 100%;
+            width: 100%;
+            display: block;
+            color: $white;
+            @include md {
+                @include padding(18px,auto,18px,auto);
+            }
         }
     }
 }
 
 .btn:link,
 .btn:visited {
-    > a {
-        @include padding(12px, 24px, 12px, 24px);
-        align-items: center;
-        color: $white;
-        display: flex;
-        font-size: rem-calc(24);
-        font-weight: 600;
-        justify-content: center;
-        text-transform: uppercase;
-        transition: 0.2s ease-in-out;
-        width: 100%;
-        @include md {
-            @include padding(16px, 24px, 16px, 24px);
-        }
+    background-color: $blank;
 
-        i {
+    p {
+        a {
+            @include padding(16px,auto,16px,auto);
             font-size: rem-calc(24);
-            transition: 0.2s ease-in-out;
-        }
-    }
-}
-
-.btn:hover {
-    box-shadow: none;
-    transform: translate(0px, 4px) scale(0.98);
-    transition: 0.2s ease-in-out;
-
-    > a {
-        i {
-            transform: translate(-200%, 0px) scale(2);
-            transition: 0.2s ease-in-out;
+            font-weight: 700;
+            text-align: center;
+            display: block;
+            height: 100%;
+            width: 100%;
+            display: block;
+            color: $white;
             @include md {
-                transform: translate(-400%, 0px) scale(2);
+                @include padding(18px,auto,18px,auto);
             }
         }
     }
 }
+@include lg {
+    .btn:hover {
+        box-shadow: none;
+        transform: translate(0px, 4px) scale(0.98);
 
-.btn:active {
-    transition: 0.2s ease-in-out;
-
-    > a {
-        color: $black;
-
-        i {
-            color: $black;
+        a {
+            opacity: 1;
         }
+    }
+
+    .btn:active {
+        background-color: $blank;
+        transition: all 0.1s ease-in-out;
+        opacity: 0.9;
     }
 }
 
