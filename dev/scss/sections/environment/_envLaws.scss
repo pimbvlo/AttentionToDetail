@@ -1,0 +1,30 @@
+/* =============
+    Environment Laws
+============= */
+#envLaws {
+    @include sm {
+        grid-template-columns: auto 80% auto;
+    }
+    @include md {
+        grid-template-columns: auto 480px auto;
+    }
+    @include lg {
+        grid-template-columns: auto 504px auto;
+    }
+    @include xl {
+        grid-template-columns: auto 504px auto;
+    }
+
+    > div {
+        article {
+            h2 {
+                color: $secondary-purple-dark2;
+            }
+
+            p {
+                color: $secondary-purple-dark2;
+                font-weight: 500;
+            }
+        }
+    }
+}

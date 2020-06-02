@@ -1,0 +1,46 @@
+/* =============
+    Environment Resources
+============= */
+#envResources {
+    background-color: $secondary-purple-dark2;
+
+    > div {
+        article {
+            h2 {
+                color: $white;
+            }
+
+            ul {
+                li {
+                    background-image: url("../img/environment/envButtonHalftone1.svg");
+                    background-color: $secondary-purple;
+                    background-size: 2% auto;
+
+                    p {
+                        a {
+                        }
+                    }
+                }
+                li:link,
+                li:visited {
+
+                    background-image: url("../img/environment/envButtonHalftone1.svg");
+                    background-color: $secondary-purple;
+                    background-size: 2% auto;
+
+                    p {
+                    }
+                }
+                @include lg {
+                    li:hover{
+                        background-size: 1.95% auto;
+                    }
+                    li:active {
+                        background-color: $secondary-purple-dark1;
+
+                    }
+                }
+            }
+        }
+    }
+}

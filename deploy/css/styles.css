@@ -472,7 +472,8 @@ ul li {
 }
 
 .content-hero {
-  height: 56vh;
+  min-height: 200px;
+  height: 48vh;
   background-color: 0, 0, 0, 0;
   background-position: center;
   background-repeat: no-repeat;
@@ -531,7 +532,7 @@ h2 {
   letter-spacing: 0.02375rem;
   line-height: 1.75rem;
   text-transform: capitalize;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 @media (min-width: 768px) {
   h2 {
@@ -546,7 +547,7 @@ h2 {
     font-size: 3rem;
     letter-spacing: 0.045rem;
     line-height: 4rem;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
   }
 }
 
@@ -612,7 +613,6 @@ a:hover, a:active {
 ============= */
 .btn {
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   background-color: 0, 0, 0, 0;
   border-radius: 104px;
@@ -2059,13 +2059,19 @@ footer > div article ul li:last-of-type {
   color: #FAFAFA;
 }
 #webResources > div article ul li {
-  background-image: url("../img/web/webButtonHalftone.svg");
+  background-image: url("../img/web/webButtonHalftone1.svg");
+  background-color: #72051B;
+  background-size: 3.75% auto;
 }
 #webResources > div article ul li:link,
 #webResources > div article ul li:visited {
   background-color: #72051B;
 }
 @media (min-width: 992px) {
+  #webResources > div article ul li:hover {
+    background-size: 3.5% auto;
+    background-color: #AC0321;
+  }
   #webResources > div article ul li:active {
     background-color: #E60026;
   }
@@ -2158,7 +2164,7 @@ footer > div article ul li:last-of-type {
     justify-content: flex-start;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #printBestPractices > div article div:nth-child(2) div:nth-child(4) {
     align-items: flex-start;
   }
@@ -2233,15 +2239,559 @@ footer > div article ul li:last-of-type {
   color: #FAFAFA;
 }
 #printResources > div article ul li {
-  background-image: url("../img/print/printButtonHalftone.svg");
+  background-image: url("../img/print/printButtonHalftone1.svg");
   background-color: #003A4C;
+  background-size: 3.25% auto;
+}
+#printResources > div article ul li::after {
+  background-color: #FAFAFA;
+  height: 100%;
+  width: 100%;
 }
 #printResources > div article ul li:link,
 #printResources > div article ul li:visited {
   background-color: #003A4C;
 }
 @media (min-width: 992px) {
+  #printResources > div article ul li:hover {
+    background-size: 2.75% auto;
+  }
   #printResources > div article ul li:active {
     background-color: #077174;
   }
 }
+
+/* =============
+    Environment Hero
+============= */
+#envHero {
+  background-color: #7140BF;
+  background-image: url("../img/environment/envHero2.png");
+  background-size: cover;
+  background-position: right top;
+}
+@media (min-width: 768px) {
+  #envHero {
+    background-position: left top;
+  }
+}
+@media (min-width: 992px) {
+  #envHero {
+    background-position: center 60%;
+  }
+}
+/* =============
+    Environment Laws
+============= */
+@media (min-width: 456px) {
+  #envLaws {
+    grid-template-columns: auto 80% auto;
+  }
+}
+@media (min-width: 768px) {
+  #envLaws {
+    grid-template-columns: auto 480px auto;
+  }
+}
+@media (min-width: 992px) {
+  #envLaws {
+    grid-template-columns: auto 504px auto;
+  }
+}
+@media (min-width: 1200px) {
+  #envLaws {
+    grid-template-columns: auto 504px auto;
+  }
+}
+#envLaws > div article h2 {
+  color: #382468;
+}
+#envLaws > div article p {
+  color: #382468;
+  font-weight: 500;
+}
+
+/* =============
+    Environment Hero
+============= */
+#envWayfinding {
+  background-color: #E9E8E7;
+}
+#envWayfinding > div article h2 {
+  color: #382468;
+}
+#envWayfinding > div article div:nth-child(2) {
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "ul1" "ul2" "source";
+}
+@media (min-width: 768px) {
+  #envWayfinding > div article div:nth-child(2) {
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "ul1 ul1 ul1 ul2 ul2 ul2" "source source source . . .";
+  }
+}
+@media (min-width: 992px) {
+  #envWayfinding > div article div:nth-child(2) {
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "ul1 ul1 ul1 . ul2 ul2 ul2 . ." "source source source . ul2 ul2 ul2 . .";
+  }
+}
+#envWayfinding > div article div:nth-child(2) h3 {
+  color: #382468;
+  margin-bottom: 0px;
+}
+#envWayfinding > div article div:nth-child(2) ul {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 16px;
+}
+#envWayfinding > div article div:nth-child(2) ul:nth-child(1) {
+  grid-template-rows: repeat(3, auto);
+}
+@media (min-width: 768px) {
+  #envWayfinding > div article div:nth-child(2) ul:nth-child(1) li:nth-child(1) {
+    height: 32px;
+  }
+  #envWayfinding > div article div:nth-child(2) ul:nth-child(1) li:last-of-type {
+    height: 160px;
+  }
+}
+@media (min-width: 992px) {
+  #envWayfinding > div article div:nth-child(2) ul:nth-child(1) li:last-of-type {
+    height: 160px;
+  }
+}
+@media (min-width: 1200px) {
+  #envWayfinding > div article div:nth-child(2) ul:nth-child(1) li:last-of-type {
+    height: 112px;
+  }
+}
+#envWayfinding > div article div:nth-child(2) ul:nth-child(2) {
+  grid-template-rows: repeat(4, auto);
+}
+@media (min-width: 768px) {
+  #envWayfinding > div article div:nth-child(2) ul:nth-child(2) li:nth-child(1) {
+    height: 32px;
+  }
+}
+#envWayfinding > div article div:nth-child(2) p a {
+  color: #382468;
+}
+#envWayfinding > div article div:nth-child(2) p a:link,
+#envWayfinding > div article div:nth-child(2) p a:visited {
+  color: #382468;
+}
+#envWayfinding > div article div:nth-child(2) p a:active,
+#envWayfinding > div article div:nth-child(2) p a:hover {
+  color: #7140BF;
+}
+#envWayfinding > div article div:nth-child(2) ul:nth-child(1) {
+  grid-area: ul1;
+}
+#envWayfinding > div article div:nth-child(2) ul:nth-child(2) {
+  grid-area: ul2;
+}
+#envWayfinding > div article div:nth-child(2) p:nth-child(3) {
+  grid-area: source;
+}
+
+/* =============
+    Environment Visual Messaging
+============= */
+#envVisualMessaging > div article h2 {
+  color: #382468;
+}
+#envVisualMessaging > div article div:nth-child(2) {
+  grid-template-rows: repeat(7, auto);
+  grid-template-areas: "p1" "p2" "svg1" "p3" "p4" "svg2" "source";
+}
+@media (min-width: 768px) {
+  #envVisualMessaging > div article div:nth-child(2) {
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "p1 p1 p1 svg1 svg1 svg1" "p2 p2 p2 svg1 svg1 svg1" "svg2 svg2 svg2 svg1 svg1 svg1" "svg2 svg2 svg2 p3 p3 p3" "svg2 svg2 svg2 p4 p4 p4" ". . . source source source";
+  }
+}
+@media (min-width: 992px) {
+  #envVisualMessaging > div article div:nth-child(2) {
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas: "p1 p1 p1 svg1 svg1 svg1 svg1 svg1 ." "p2 p2 p2 svg1 svg1 svg1 svg1 svg1 ." ". . . svg1 svg1 svg1 svg1 svg1 ." "svg2 svg2 svg2 svg2 svg2 p3 p3 p3 ." "svg2 svg2 svg2 svg2 svg2 p4 p4 p4 ." "svg2 svg2 svg2 svg2 svg2 . . . ." "svg2 svg2 svg2 svg2 svg2 source source source .";
+  }
+}
+#envVisualMessaging > div article div:nth-child(2) p a,
+#envVisualMessaging > div article div:nth-child(2) p span {
+  color: #382468;
+}
+#envVisualMessaging > div article div:nth-child(2) p a:link,
+#envVisualMessaging > div article div:nth-child(2) p a:visited {
+  color: #382468;
+}
+#envVisualMessaging > div article div:nth-child(2) p a:active,
+#envVisualMessaging > div article div:nth-child(2) p a:hover {
+  color: #7140BF;
+}
+#envVisualMessaging > div article div:nth-child(2) div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#envVisualMessaging > div article div:nth-child(2) div svg {
+  width: 90%;
+}
+@media (min-width: 768px) {
+  #envVisualMessaging > div article div:nth-child(2) div svg {
+    height: 160px;
+    width: auto;
+  }
+}
+#envVisualMessaging > div article div:nth-child(2) p:nth-child(1) {
+  grid-area: p1;
+}
+#envVisualMessaging > div article div:nth-child(2) p:nth-child(2) {
+  grid-area: p2;
+}
+#envVisualMessaging > div article div:nth-child(2) div:nth-child(3) {
+  grid-area: svg1;
+  margin-bottom: -60px;
+}
+@media (min-width: 456px) {
+  #envVisualMessaging > div article div:nth-child(2) div:nth-child(3) {
+    margin-bottom: -88px;
+  }
+}
+@media (min-width: 768px) {
+  #envVisualMessaging > div article div:nth-child(2) div:nth-child(3) {
+    margin-bottom: -28px;
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 992px) {
+  #envVisualMessaging > div article div:nth-child(2) div:nth-child(3) {
+    margin-bottom: -88px;
+  }
+}
+@media (min-width: 768px) {
+  #envVisualMessaging > div article div:nth-child(2) div:nth-child(3) svg {
+    height: 304px;
+  }
+}
+@media (min-width: 992px) {
+  #envVisualMessaging > div article div:nth-child(2) div:nth-child(3) svg {
+    height: 504px;
+  }
+}
+#envVisualMessaging > div article div:nth-child(2) p:nth-child(4) {
+  grid-area: p3;
+}
+#envVisualMessaging > div article div:nth-child(2) p:nth-child(5) {
+  grid-area: p4;
+}
+#envVisualMessaging > div article div:nth-child(2) div:nth-child(6) {
+  grid-area: svg2;
+  margin-bottom: -76px;
+}
+@media (min-width: 456px) {
+  #envVisualMessaging > div article div:nth-child(2) div:nth-child(6) {
+    margin-bottom: -108px;
+  }
+}
+@media (min-width: 768px) {
+  #envVisualMessaging > div article div:nth-child(2) div:nth-child(6) {
+    margin-bottom: -88px;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+}
+@media (min-width: 992px) {
+  #envVisualMessaging > div article div:nth-child(2) div:nth-child(6) {
+    margin-bottom: -64px;
+    margin-right: -80px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  #envVisualMessaging > div article div:nth-child(2) div:nth-child(6) svg {
+    height: 424px;
+  }
+}
+@media (min-width: 992px) {
+  #envVisualMessaging > div article div:nth-child(2) div:nth-child(6) svg {
+    height: 544px;
+  }
+}
+#envVisualMessaging > div article div:nth-child(2) p:nth-child(7) {
+  grid-area: source;
+}
+
+/* =============
+    Environment Tactile Messaging
+============= */
+#envTactileMessaging {
+  background-color: #E9E8E7;
+}
+#envTactileMessaging > div article h2 {
+  color: #382468;
+}
+#envTactileMessaging > div article div:nth-child(2) {
+  grid-template-rows: repeat(10, auto);
+  grid-template-areas: "p1" "p2" "p3" "svg1" "p4" "p5" "p6" "p7" "svg2" "p8" "source";
+}
+@media (min-width: 768px) {
+  #envTactileMessaging > div article div:nth-child(2) {
+    grid-template-areas: "p1 p1 p1 svg1 svg1 svg1" "p2 p2 p2 svg1 svg1 svg1" "p3 p3 p3 svg1 svg1 svg1" ". . . svg1 svg1 svg1" "svg2 svg2 svg2 p4 p4 p4" "svg2 svg2 svg2 p5 p5 p5" "svg2 svg2 svg2 p6 p6 p6" "svg2 svg2 svg2 p7 p7 p7" ". p8 p8 p8 . ." ". source source source . .";
+  }
+}
+@media (min-width: 992px) {
+  #envTactileMessaging > div article div:nth-child(2) {
+    grid-template-rows: repeat(11, auto);
+    grid-template-areas: "p1 p1 p1 . svg1 svg1 svg1 svg1 svg1" "p2 p2 p2 . svg1 svg1 svg1 svg1 svg1" "p3 p3 p3 . svg1 svg1 svg1 svg1 svg1" ". . . . svg1 svg1 svg1 svg1 svg1" "svg2 svg2 svg2 svg2 svg2 . p4 p4 p4" "svg2 svg2 svg2 svg2 svg2 . p5 p5 p5" "svg2 svg2 svg2 svg2 svg2 . p6 p6 p6" "svg2 svg2 svg2 svg2 svg2 . p7 p7 p7" "svg2 svg2 svg2 svg2 svg2 . . . ." ". . p8 p8 p8 . . . ." ". . source source source . . . .";
+  }
+}
+#envTactileMessaging > div article div:nth-child(2) p a,
+#envTactileMessaging > div article div:nth-child(2) p span {
+  color: #382468;
+}
+#envTactileMessaging > div article div:nth-child(2) p a:link,
+#envTactileMessaging > div article div:nth-child(2) p a:visited {
+  color: #382468;
+}
+#envTactileMessaging > div article div:nth-child(2) p a:active,
+#envTactileMessaging > div article div:nth-child(2) p a:hover {
+  color: #7140BF;
+}
+#envTactileMessaging > div article div:nth-child(2) div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#envTactileMessaging > div article div:nth-child(2) div svg {
+  width: 90%;
+}
+@media (min-width: 768px) {
+  #envTactileMessaging > div article div:nth-child(2) div svg {
+    height: 160px;
+    width: auto;
+  }
+}
+#envTactileMessaging > div article div:nth-child(2) p:nth-child(1) {
+  grid-area: p1;
+}
+#envTactileMessaging > div article div:nth-child(2) p:nth-child(2) {
+  grid-area: p2;
+}
+#envTactileMessaging > div article div:nth-child(2) p:nth-child(3) {
+  grid-area: p3;
+}
+#envTactileMessaging > div article div:nth-child(2) div:nth-child(4) {
+  grid-area: svg1;
+  margin-bottom: -16px;
+}
+@media (min-width: 456px) {
+  #envTactileMessaging > div article div:nth-child(2) div:nth-child(4) {
+    margin-bottom: -32px;
+  }
+}
+@media (min-width: 768px) {
+  #envTactileMessaging > div article div:nth-child(2) div:nth-child(4) {
+    margin-bottom: -16px;
+    margin-left: -16px;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+}
+@media (min-width: 992px) {
+  #envTactileMessaging > div article div:nth-child(2) div:nth-child(4) {
+    margin-bottom: -32px;
+  }
+}
+@media (min-width: 768px) {
+  #envTactileMessaging > div article div:nth-child(2) div:nth-child(4) svg {
+    height: 186px;
+  }
+}
+@media (min-width: 992px) {
+  #envTactileMessaging > div article div:nth-child(2) div:nth-child(4) svg {
+    height: 284px;
+  }
+}
+#envTactileMessaging > div article div:nth-child(2) p:nth-child(5) {
+  grid-area: p4;
+}
+#envTactileMessaging > div article div:nth-child(2) p:nth-child(6) {
+  grid-area: p5;
+}
+#envTactileMessaging > div article div:nth-child(2) p:nth-child(7) {
+  grid-area: p6;
+}
+#envTactileMessaging > div article div:nth-child(2) p:nth-child(8) {
+  grid-area: p7;
+}
+#envTactileMessaging > div article div:nth-child(2) div:nth-child(9) {
+  grid-area: svg2;
+  margin-bottom: -52px;
+}
+@media (min-width: 456px) {
+  #envTactileMessaging > div article div:nth-child(2) div:nth-child(9) {
+    margin-bottom: -96px;
+  }
+}
+@media (min-width: 768px) {
+  #envTactileMessaging > div article div:nth-child(2) div:nth-child(9) {
+    margin-bottom: -72px;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+}
+@media (min-width: 992px) {
+  #envTactileMessaging > div article div:nth-child(2) div:nth-child(9) {
+    margin-bottom: -80px;
+  }
+}
+@media (min-width: 768px) {
+  #envTactileMessaging > div article div:nth-child(2) div:nth-child(9) svg {
+    height: 328px;
+  }
+}
+@media (min-width: 992px) {
+  #envTactileMessaging > div article div:nth-child(2) div:nth-child(9) svg {
+    height: 432px;
+  }
+}
+#envTactileMessaging > div article div:nth-child(2) p:nth-child(10) {
+  grid-area: p8;
+}
+#envTactileMessaging > div article div:nth-child(2) p:nth-child(11) {
+  grid-area: source;
+}
+
+/* =============
+    Environment Best Practices
+============= */
+#envBestPractices > div article h2 {
+  color: #382468;
+}
+#envBestPractices > div article div:nth-child(2) {
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: "p1" "p2" "p3" "svg1" "source";
+}
+@media (min-width: 768px) {
+  #envBestPractices > div article div:nth-child(2) {
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "p1 p1 p1 svg1 svg1 svg1" "p2 p2 p2 svg1 svg1 svg1" "p3 p3 p3 svg1 svg1 svg1" "source source source . . .";
+  }
+}
+@media (min-width: 992px) {
+  #envBestPractices > div article div:nth-child(2) {
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "p1 p1 p1 . svg1 svg1 svg1 svg1 svg1" "p2 p2 p2 . svg1 svg1 svg1 svg1 svg1" "p3 p3 p3 . svg1 svg1 svg1 svg1 svg1" "source source source . svg1 svg1 svg1 svg1 svg1" ". . . . svg1 svg1 svg1 svg1 svg1";
+  }
+}
+#envBestPractices > div article div:nth-child(2) p a,
+#envBestPractices > div article div:nth-child(2) p span {
+  color: #382468;
+}
+#envBestPractices > div article div:nth-child(2) p a:link,
+#envBestPractices > div article div:nth-child(2) p a:visited {
+  color: #382468;
+}
+#envBestPractices > div article div:nth-child(2) p a:active,
+#envBestPractices > div article div:nth-child(2) p a:hover {
+  color: #7140BF;
+}
+#envBestPractices > div article div:nth-child(2) div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#envBestPractices > div article div:nth-child(2) div svg {
+  width: 90%;
+}
+@media (min-width: 768px) {
+  #envBestPractices > div article div:nth-child(2) div svg {
+    height: 160px;
+    width: auto;
+  }
+}
+#envBestPractices > div article div:nth-child(2) p:nth-child(1) {
+  grid-area: p1;
+}
+#envBestPractices > div article div:nth-child(2) p:nth-child(2) {
+  grid-area: p2;
+}
+#envBestPractices > div article div:nth-child(2) p:nth-child(3) {
+  grid-area: p3;
+}
+#envBestPractices > div article div:nth-child(2) div:nth-child(4) {
+  grid-area: svg1;
+  margin-bottom: -24px;
+}
+@media (min-width: 456px) {
+  #envBestPractices > div article div:nth-child(2) div:nth-child(4) {
+    margin-bottom: -32px;
+  }
+}
+@media (min-width: 768px) {
+  #envBestPractices > div article div:nth-child(2) div:nth-child(4) {
+    margin-bottom: -28px;
+    margin-left: -16px;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+}
+@media (min-width: 992px) {
+  #envBestPractices > div article div:nth-child(2) div:nth-child(4) {
+    margin-bottom: -56px;
+    margin-left: -32px;
+  }
+}
+@media (min-width: 1200px) {
+  #envBestPractices > div article div:nth-child(2) div:nth-child(4) {
+    margin-left: -28px;
+  }
+}
+@media (min-width: 768px) {
+  #envBestPractices > div article div:nth-child(2) div:nth-child(4) svg {
+    height: 280px;
+  }
+}
+@media (min-width: 992px) {
+  #envBestPractices > div article div:nth-child(2) div:nth-child(4) svg {
+    height: 504px;
+  }
+}
+#envBestPractices > div article div:nth-child(2) p:nth-child(5) {
+  grid-area: source;
+}
+
+/* =============
+    Environment Resources
+============= */
+#envResources {
+  background-color: #382468;
+}
+#envResources > div article h2 {
+  color: #FAFAFA;
+}
+#envResources > div article ul li {
+  background-image: url("../img/environment/envButtonHalftone1.svg");
+  background-color: #7140BF;
+  background-size: 2% auto;
+}
+#envResources > div article ul li:link,
+#envResources > div article ul li:visited {
+  background-image: url("../img/environment/envButtonHalftone1.svg");
+  background-color: #7140BF;
+  background-size: 2% auto;
+}
+@media (min-width: 992px) {
+  #envResources > div article ul li:hover {
+    background-size: 1.95% auto;
+  }
+  #envResources > div article ul li:active {
+    background-color: #543294;
+  }
+}
+
+/* =============
+    Environment Img VisualMessaging1
+============= */

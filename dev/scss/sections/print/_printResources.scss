@@ -12,13 +12,18 @@
 
             ul {
                 li {
-                    background-image: url("../img/print/printButtonHalftone.svg");
+                    background-image: url("../img/print/printButtonHalftone1.svg");
                     background-color: $primary-dark-blue;
-
+                    background-size: 3.25% auto;
                     p {
                         a {
                         }
                     }
+                }
+                li::after{
+                    background-color: $white;
+                    height: 100%;
+                    width: 100%;
                 }
                 li:link,
                 li:visited {
@@ -28,6 +33,10 @@
                     }
                 }
                 @include lg {
+                    li:hover{
+                        background-size: 2.75% auto;
+
+                    }
                     li:active {
                         background-color: $secondary-turquoise-dark2;
                     }

@@ -1,0 +1,110 @@
+/* =============
+    Environment Best Practices
+============= */
+#envBestPractices {
+    > div {
+        article {
+            h2 {
+                color: $secondary-purple-dark2;
+            }
+
+            div:nth-child(2) {
+                grid-template-rows: repeat(5,auto);
+                grid-template-areas: "p1" "p2" "p3" "svg1" "source";
+                @include md {
+                    grid-template-rows: repeat(4,auto);
+                    grid-template-areas:
+                    "p1 p1 p1 svg1 svg1 svg1"
+                    "p2 p2 p2 svg1 svg1 svg1"
+                    "p3 p3 p3 svg1 svg1 svg1"
+                    "source source source . . .";
+
+                }
+                @include lg {
+                    grid-template-rows: repeat(5,auto);
+                    grid-template-areas:
+                    "p1 p1 p1 . svg1 svg1 svg1 svg1 svg1"
+                    "p2 p2 p2 . svg1 svg1 svg1 svg1 svg1"
+                    "p3 p3 p3 . svg1 svg1 svg1 svg1 svg1"
+                    "source source source . svg1 svg1 svg1 svg1 svg1"
+                    ". . . . svg1 svg1 svg1 svg1 svg1"
+
+                }
+
+                p {
+                    a,
+                    span {
+                        color: $secondary-purple-dark2;
+                    }
+
+                    a:link,
+                    a:visited {
+                        color: $secondary-purple-dark2;
+                    }
+
+                    a:active,
+                    a:hover {
+                        color: $secondary-purple;
+                    }
+                }
+
+                div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    svg {
+                        width: 90%;
+                        @include md {
+                            height: 160px;
+                            width: auto;
+                        }
+                    }
+                }
+
+                p:nth-child(1) {
+                    grid-area: p1;
+                }
+
+                p:nth-child(2) {
+                    grid-area: p2;
+                }
+
+                p:nth-child(3) {
+                    grid-area: p3;
+                }
+
+                div:nth-child(4) {
+                    grid-area: svg1;
+                    @include margin(null,null,-24px,null);
+                    @include sm {
+                        @include margin(null,null,-32px,null);
+                    }
+                    @include md {
+                        @include margin(null,null,-28px,-16px);
+                        justify-content: flex-start;
+                        align-items: flex-end;
+                    }
+                    @include lg {
+                        @include margin(null,null,-56px,-32px);
+                    }
+                    @include xl {
+                        @include margin(null,null,null,-28px);
+                    }
+                    svg {
+                        @include md {
+                            height: 280px;
+                        }
+                        @include lg{
+                            height: 504px;
+                        }
+                    }
+                }
+
+                p:nth-child(5) {
+                    grid-area: source;
+                }
+            }
+        }
+    }
+}

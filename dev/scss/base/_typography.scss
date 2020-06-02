@@ -39,7 +39,7 @@ h2 {
     letter-spacing: rem-calc(0.38);
     line-height: rem-calc(28);
     text-transform: capitalize;
-    @include margin(null,null,8px,null);
+    @include margin(null,null,12px,null);
 
     @include md {
         font-size: rem-calc(40);
@@ -52,7 +52,7 @@ h2 {
         font-size: rem-calc(48);
         letter-spacing: rem-calc(0.72);
         line-height: rem-calc(64);
-        @include margin(null,null,32px,null);
+        @include margin(null,null,20px,null);
 
     }
 }

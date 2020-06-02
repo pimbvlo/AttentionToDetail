@@ -7,7 +7,7 @@ lineToX.to("#burger-container", {
     }, "create-x")
     .to("#top-line", {
         duration: burgerSpeed,
-        y: 7.75,
+        y: 8,
         rotate: 45
     }, "create-x")
     .to("#middle-line", {
@@ -16,7 +16,7 @@ lineToX.to("#burger-container", {
     }, "create-x")
     .to("#bottom-line", {
         duration: burgerSpeed,
-        y: -7.75,
+        y: -8,
         rotate: -45
     }, "create-x");
 // .from("#burger-outline",{duration:0.5, alpha:0},"create-x");

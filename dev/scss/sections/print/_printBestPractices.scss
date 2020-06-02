@@ -90,7 +90,7 @@
                         align-items: flex-end;
                         justify-content: flex-start;
                     }
-                    @include md{
+                    @include lg{
                         align-items: flex-start;
                     }
                     svg {

@@ -1,0 +1,20 @@
+/* =============
+    Environment Hero
+============= */
+#envHero {
+    background-color: $secondary-purple;
+    background-image: url("../img/environment/envHero2.png");
+    background-size: cover;
+    background-position: right top;
+    @include md{
+        background-position: left top;
+    }
+    @include lg{
+        background-position: center 60%;
+    }
+    > div {
+        article {
+            h1 {}
+        }
+    }
+}

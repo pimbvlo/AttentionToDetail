@@ -12,7 +12,10 @@
 
             ul {
                 li {
-                    background-image: url("../img/web/webButtonHalftone.svg");
+                    background-image: url("../img/web/webButtonHalftone1.svg");
+                    background-color: $secondary-red-dark2;
+                    background-size: 3.75% auto;
+
 
                     p {
                         a {
@@ -27,6 +30,11 @@
                     }
                 }
                 @include lg {
+                    li:hover{
+                        background-size: 3.5% auto;
+                        background-color: $secondary-red-dark1;
+
+                    }
                     li:active {
                         background-color: $secondary-red;
                     }

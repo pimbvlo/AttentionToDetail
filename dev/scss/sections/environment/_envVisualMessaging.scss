@@ -1,0 +1,127 @@
+/* =============
+    Environment Visual Messaging
+============= */
+#envVisualMessaging {
+    > div {
+        article {
+            h2 {
+                color: $secondary-purple-dark2;
+            }
+
+            div:nth-child(2) {
+                grid-template-rows: repeat(7,auto);
+                grid-template-areas: "p1" "p2" "svg1" "p3" "p4" "svg2" "source";
+                @include md {
+                    grid-template-rows: repeat(6,auto);
+                    grid-template-areas: "p1 p1 p1 svg1 svg1 svg1" "p2 p2 p2 svg1 svg1 svg1" "svg2 svg2 svg2 svg1 svg1 svg1" "svg2 svg2 svg2 p3 p3 p3" "svg2 svg2 svg2 p4 p4 p4" ". . . source source source";
+                }
+                @include lg {
+                    grid-template-rows: repeat(7,auto);
+                    grid-template-areas: "p1 p1 p1 svg1 svg1 svg1 svg1 svg1 ." "p2 p2 p2 svg1 svg1 svg1 svg1 svg1 ." ". . . svg1 svg1 svg1 svg1 svg1 ." "svg2 svg2 svg2 svg2 svg2 p3 p3 p3 ." "svg2 svg2 svg2 svg2 svg2 p4 p4 p4 ." "svg2 svg2 svg2 svg2 svg2 . . . ." "svg2 svg2 svg2 svg2 svg2 source source source .";
+                }
+
+                p {
+                    a,
+                    span {
+                        color: $secondary-purple-dark2;
+                    }
+
+                    a:link,
+                    a:visited {
+                        color: $secondary-purple-dark2;
+                    }
+
+                    a:active,
+                    a:hover {
+                        color: $secondary-purple;
+                    }
+                }
+
+                div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    svg {
+                        width: 90%;
+                        @include md {
+                            height: 160px;
+                            width: auto;
+                        }
+                    }
+                }
+
+                p:nth-child(1) {
+                    grid-area: p1;
+                }
+
+                p:nth-child(2) {
+                    grid-area: p2;
+                }
+
+                div:nth-child(3) {
+                    grid-area: svg1;
+                    @include margin(null,null,-60px,null);
+                    @include sm {
+                        @include margin(null,null,-88px,null);
+                    }
+                    @include md {
+                        @include margin(null,null,-28px,null);
+                        justify-content: flex-start;
+                    }
+                    @include lg {
+                        @include margin(null,null,-88px,null);
+                    }
+
+                    svg {
+                        @include md {
+                            height: 304px;
+                        }
+                        @include lg {
+                            height: 504px;
+                        }
+                    }
+                }
+
+                p:nth-child(4) {
+                    grid-area: p3;
+                }
+
+                p:nth-child(5) {
+                    grid-area: p4;
+                }
+
+                div:nth-child(6) {
+                    grid-area: svg2;
+                    @include margin(null,null,-76px,null);
+                    @include sm {
+                        @include margin(null,null,-108px,null);
+                    }
+                    @include md {
+                        @include margin(null,null,-88px,null);
+                        justify-content: flex-end;
+                        align-items: flex-end;
+                    }
+                    @include lg {
+                        @include margin(null,-80px,-64px,null);
+                        justify-content: flex-end;
+                        align-items: center;
+                    }
+
+                    svg {
+                        @include md {
+                            height: 424px;
+                        }
+                        @include lg {
+                            height: 544px;
+                        }
+                    }
+                }
+
+                p:nth-child(7) {
+                    grid-area: source;
+                }
+            }
+        }
+    }
+}

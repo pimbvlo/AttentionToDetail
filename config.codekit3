@@ -7,7 +7,7 @@
 		"uuidString": "786132CC-EC7B-4E23-BA4A-66D7F465A51A"
 		}
 	],
-"creatorBuild": "32147",
+"creatorBuild": "32186",
 "files": {
 	"/deploy/css/styles.css": {
 		"aP": 1,
@@ -19,14 +19,47 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/environment/envBestPractices.png": {
+	"/deploy/img/environment/envBestPractices1.png": {
 		"ft": 32768,
 		"iS": 934448,
 		"oA": 0,
-		"oAP": "/deploy/img/environment/envBestPractices.png",
+		"oAP": "/deploy/img/environment/envBestPractices1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/environment/envBestPractices1Shadow1.png": {
+		"ft": 32768,
+		"iS": 451,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envBestPractices1Shadow1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/environment/envBestPractices1Shadow2.png": {
+		"ft": 32768,
+		"iS": 547,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envBestPractices1Shadow2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/environment/envBestPractices1Shadow3.png": {
+		"ft": 32768,
+		"iS": 476,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envBestPractices1Shadow3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -40,11 +73,21 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/environment/envHero.png": {
+	"/deploy/img/environment/envButtonHalftone1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/environment/envButtonHalftone1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/environment/envHero1.png": {
 		"ft": 32768,
 		"iS": 948945,
 		"oA": 0,
-		"oAP": "/deploy/img/environment/envHero.png",
+		"oAP": "/deploy/img/environment/envHero1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -53,12 +96,12 @@
 		},
 	"/deploy/img/environment/envHero2.png": {
 		"ft": 32768,
-		"iS": 1189151,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/environment/envHero2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -73,14 +116,58 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/environment/envTactileMessaging1Shadow1.png": {
+		"ft": 32768,
+		"iS": 471,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envTactileMessaging1Shadow1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/environment/envTactileMessaging1Shadow2.png": {
+		"ft": 32768,
+		"iS": 389,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envTactileMessaging1Shadow2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/environment/envTactileMessaging2.png": {
 		"ft": 32768,
-		"iS": 686031,
+		"iS": 908229,
 		"oA": 0,
 		"oAP": "/deploy/img/environment/envTactileMessaging2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/environment/envTactileMessaging2Shadow1.png": {
+		"ft": 32768,
+		"iS": 1976,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envTactileMessaging2Shadow1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/environment/envTactileMessaging2Shadow2.png": {
+		"ft": 32768,
+		"iS": 1294,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envTactileMessaging2Shadow2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -95,6 +182,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/environment/envVisualMessaging1Shadow1.png": {
+		"ft": 32768,
+		"iS": 3960,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envVisualMessaging1Shadow1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/environment/envVisualMessaging2.png": {
 		"ft": 32768,
 		"iS": 722413,
@@ -103,6 +201,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/environment/envVisualMessaging2Shadow1.png": {
+		"ft": 32768,
+		"iS": 526,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envVisualMessaging2Shadow1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/environment/envVisualMessaging2Shadow2.png": {
+		"ft": 32768,
+		"iS": 1554,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envVisualMessaging2Shadow2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -209,6 +329,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/print/printButtonHalftone1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/print/printButtonHalftone1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/print/printHero.png": {
 		"ft": 32768,
 		"iS": 1148580,
@@ -225,6 +355,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/web/webButtonHalftone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/web/webButtonHalftone1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/web/webButtonHalftone1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -304,6 +444,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/medium/environment.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/medium/environment.html",
+		"oF": 0
+		},
 	"/deploy/medium/print.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -319,6 +467,14 @@
 		"oA": 0,
 		"oAP": "/deploy/medium/web.html",
 		"oF": 0
+		},
+	"/dev/environment.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/medium/environment.html",
+		"oF": 2
 		},
 	"/dev/global/burger-container.kit": {
 		"cB": 0,
@@ -406,6 +562,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/global/head-medium.html",
+		"oF": 0
+		},
+	"/dev/global/header-medium.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/header-medium.html",
 		"oF": 0
 		},
 	"/dev/global/header.kit": {
@@ -633,6 +797,102 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/medium/environment/envBestPractices.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/environment/envBestPractices.html",
+		"oF": 0
+		},
+	"/dev/medium/environment/envHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/environment/envHero.html",
+		"oF": 0
+		},
+	"/dev/medium/environment/envLaws.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/environment/envLaws.html",
+		"oF": 0
+		},
+	"/dev/medium/environment/envResources.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/environment/envResources.html",
+		"oF": 0
+		},
+	"/dev/medium/environment/envTactileMessaging.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/environment/envTactileMessaging.html",
+		"oF": 0
+		},
+	"/dev/medium/environment/envVisualMessaging.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/environment/envVisualMessaging.html",
+		"oF": 0
+		},
+	"/dev/medium/environment/envWayfinding.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/environment/envWayfinding.html",
+		"oF": 0
+		},
+	"/dev/medium/environment/img/envBestPractices1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/environment/img/envBestPractices1.html",
+		"oF": 0
+		},
+	"/dev/medium/environment/img/envTactileMessaging1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/environment/img/envTactileMessaging1.html",
+		"oF": 0
+		},
+	"/dev/medium/environment/img/envTactileMessaging2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/environment/img/envTactileMessaging2.html",
+		"oF": 0
+		},
+	"/dev/medium/environment/img/envVisualMessaging1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/environment/img/envVisualMessaging1.html",
+		"oF": 0
+		},
+	"/dev/medium/environment/img/envVisualMessaging2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/medium/environment/img/envVisualMessaging2.html",
+		"oF": 0
 		},
 	"/dev/medium/print/img/printBestPractices1.kit": {
 		"cB": 0,
@@ -954,6 +1214,110 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/environment/_envBestPractices.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/environment/_envBestPractices.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/environment/_envHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/environment/_envHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/environment/_envLaws.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/environment/_envLaws.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/environment/_envResources.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/environment/_envResources.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/environment/_envTactileMessaging.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/environment/_envTactileMessaging.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/environment/_envVisualMessaging.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/environment/_envVisualMessaging.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/environment/_envWayfinding.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/environment/_envWayfinding.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/environment/img/_envVisualMessaging1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/environment/img/_envVisualMessaging1.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1750,6 +2114,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"default-param-last": {
 			"active": 0,
 			"optionString": ""
@@ -2162,6 +2530,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-loss-of-precision": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
@@ -2277,6 +2649,10 @@
 		"no-regex-spaces": {
 			"active": 1,
 			"optionString": ""
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
@@ -2421,6 +2797,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,
