@@ -3,14 +3,17 @@
 ============= */
 #envHero {
     background-color: $secondary-purple;
-    background-image: url("../img/environment/envHero2.png");
-    background-size: cover;
-    background-position: right top;
+    background-image: url("../img/environment/envHero3.png");
+    background-size: auto 140%;
+    background-position: 10% top;
+    @include sm{
+        background-size: cover;
+    }
     @include md{
         background-position: left top;
     }
     @include lg{
-        background-position: center 60%;
+        background-position: center 20%;
     }
     > div {
         article {

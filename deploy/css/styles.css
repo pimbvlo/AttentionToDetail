@@ -40,6 +40,16 @@ body {
   font-weight: 400;
   margin: 0;
 }
+body ::selection {
+  background: #FFBF00;
+  color: #1A1A1A;
+  opacity: 0.5;
+}
+body ::-moz-selection {
+  background: #FFBF00;
+  color: #1A1A1A;
+  opacity: 0.5;
+}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -510,6 +520,7 @@ h1 {
   font-weight: 800;
   letter-spacing: 0.035rem;
   line-height: 2.5rem;
+  text-transform: capitalize;
 }
 @media (min-width: 768px) {
   h1 {
@@ -697,43 +708,56 @@ a:hover, a:active {
 .card-person {
   background-color: #FAFAFA;
   border-radius: 16px;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 5px 3px -3px rgba(19, 22, 24, 0.06), 0 3px 14px 2px rgba(19, 22, 24, 0.12), 0 8px 10px 1px rgba(19, 22, 24, 0.04);
 }
-.card-person figure {
+.card-person:hover {
+  box-shadow: 0 10px 8px -8px rgba(19, 22, 24, 0.04), 0 8px 19px 7px rgba(19, 22, 24, 0.1), 0 13px 15px 6px rgba(19, 22, 24, 0.02);
+  transform: translate(0px, -4px) scale(1.04);
+  transition: all 0.25s ease-in-out;
+}
+.card-person:hover figure {
+  opacity: 0.9;
+}
+.card-person a {
+  color: #1A1A1A;
+}
+.card-person a figure {
   border-radius: 16px 16px 0 0;
   height: 28vh;
   min-height: 200px;
-  background-color: #F28092;
+  background-color: 0, 0, 0, 0;
   background-position: center;
   background-repeat: no-repeat;
 }
 @media (min-width: 456px) {
-  .card-person figure {
+  .card-person a figure {
     height: 400px;
   }
 }
 @media (min-width: 768px) {
-  .card-person figure {
+  .card-person a figure {
     height: 240px;
   }
 }
 @media (min-width: 992px) {
-  .card-person figure {
+  .card-person a figure {
     height: 216px;
   }
 }
 @media (min-width: 1200px) {
-  .card-person figure {
+  .card-person a figure {
     height: 240px;
   }
 }
-.card-person div {
+.card-person a div {
   padding-bottom: 16px;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 16px;
 }
 @media (min-width: 456px) {
-  .card-person div {
+  .card-person a div {
     padding-bottom: 24px;
     padding-left: 24px;
     padding-right: 24px;
@@ -984,11 +1008,17 @@ footer > div article ul li:last-of-type {
   background-image: url("../img/index/indexHero.png");
   background-position: left bottom;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto 200%;
+}
+@media (min-width: 456px) {
+  #indexHero {
+    background-size: auto 180%;
+  }
 }
 @media (min-width: 768px) {
   #indexHero {
     grid-template-areas: ". content content";
+    background-size: cover;
   }
 }
 #indexHero > div {
@@ -1125,7 +1155,8 @@ footer > div article ul li:last-of-type {
   border-radius: 16px;
   background-color: #003A4C;
   box-shadow: 0 5px 3px -3px rgba(19, 22, 24, 0.06), 0 3px 14px 2px rgba(19, 22, 24, 0.12), 0 8px 10px 1px rgba(19, 22, 24, 0.04);
-  transition: 0.2s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
 }
 #indexMedium > div article ul li h2 {
   margin: 0;
@@ -1154,7 +1185,7 @@ footer > div article ul li:last-of-type {
 }
 @media (min-width: 992px) {
   #indexMedium > div article ul li a {
-    height: 280px;
+    height: 240px;
   }
 }
 #indexMedium > div article ul li a h2 {
@@ -1177,29 +1208,40 @@ footer > div article ul li:last-of-type {
 #indexMedium > div article ul li:nth-child(1) {
   background-image: url("../img/index/button1.svg");
 }
+@media (min-width: 992px) {
+  #indexMedium > div article ul li:nth-child(1):hover {
+    background-color: #0BA6A6;
+  }
+}
 #indexMedium > div article ul li:nth-child(2) {
   background-image: url("../img/index/button2.svg");
   background-color: #AC0321;
+}
+@media (min-width: 992px) {
+  #indexMedium > div article ul li:nth-child(2):hover {
+    background-color: #E60026;
+  }
 }
 #indexMedium > div article ul li:nth-child(3) {
   background-image: url("../img/index/button3.svg");
   background-color: #382468;
 }
 @media (min-width: 992px) {
-  #indexMedium > div article ul li:nth-child(3) {
-    background-position: 10% center;
+  #indexMedium > div article ul li:nth-child(3):hover {
+    background-color: #946FCF;
   }
 }
 @media (min-width: 992px) {
   #indexMedium > div article ul li:hover {
     box-shadow: 0 10px 8px -8px rgba(19, 22, 24, 0.04), 0 8px 19px 7px rgba(19, 22, 24, 0.1), 0 13px 15px 6px rgba(19, 22, 24, 0.02);
-    transform: translate(0px, -4px) scale(1.02);
+    transform: translate(0px, -4px) scale(1.04);
+    transition: all 0.25s ease-in-out;
   }
   #indexMedium > div article ul li:hover a {
     opacity: 1;
   }
   #indexMedium > div article ul li:active {
-    transition: all 0.1s;
+    transition: all 0.1s ease-in-out;
     opacity: 0.85;
   }
 }
@@ -1442,12 +1484,12 @@ footer > div article ul li:last-of-type {
 }
 @media (min-width: 768px) {
   #indexImage > div article div:nth-child(3) {
-    grid-template-areas: "p1 p1 p1 svg1 svg1 svg1" "p2 p2 p2 svg1 svg1 svg1" "p3 p3 p3 svg1 svg1 svg1" "source source source . . .";
+    grid-template-areas: "p1 p1 p1 svg1 svg1 svg1" "p2 p2 p2 svg1 svg1 svg1" "p3 p3 p3 svg1 svg1 svg1" ". . . svg1 svg1 svg1" "source source source . . .";
   }
 }
 @media (min-width: 992px) {
   #indexImage > div article div:nth-child(3) {
-    grid-template-areas: "p1 p1 p1 . . svg1 svg1 svg1 ." "p2 p2 p2 . . svg1 svg1 svg1 ." ". . p3 p3 p3 svg1 svg1 svg1 ." ". . source source source . . . .";
+    grid-template-areas: "p1 p1 p1 . . svg1 svg1 svg1 ." "p2 p2 p2 . . svg1 svg1 svg1 ." ". . p3 p3 p3 svg1 svg1 svg1 ." ". . source source source svg1 svg1 svg1 ." ". . . . . svg1 svg1 svg1 .";
   }
 }
 #indexImage > div article div:nth-child(3) p span {
@@ -1482,22 +1524,22 @@ footer > div article ul li:last-of-type {
 @media (min-width: 768px) {
   #indexImage > div article div:nth-child(3) div:nth-child(4) {
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end;
   }
 }
 @media (min-width: 768px) {
   #indexImage > div article div:nth-child(3) div:nth-child(4) svg {
-    height: 200px;
+    height: 304px;
   }
 }
 @media (min-width: 992px) {
   #indexImage > div article div:nth-child(3) div:nth-child(4) svg {
-    height: 224px;
+    height: 344px;
   }
 }
 @media (min-width: 1200px) {
   #indexImage > div article div:nth-child(3) div:nth-child(4) svg {
-    height: 200px;
+    height: 344px;
   }
 }
 #indexImage > div article div:nth-child(3) p:nth-child(5) {
@@ -1988,6 +2030,12 @@ footer > div article ul li:last-of-type {
     grid-template-areas: "pablo halli fiona";
   }
 }
+#webUXLeaders > div article ul li {
+  cursor: pointer;
+}
+#webUXLeaders > div article ul li figure {
+  background-color: #F28092;
+}
 #webUXLeaders > div article ul li:nth-child(1) {
   grid-area: pablo;
 }
@@ -2073,6 +2121,7 @@ footer > div article ul li:last-of-type {
     background-color: #AC0321;
   }
   #webResources > div article ul li:active {
+    background-size: 1.25% auto;
     background-color: #E60026;
   }
 }
@@ -2255,8 +2304,10 @@ footer > div article ul li:last-of-type {
 @media (min-width: 992px) {
   #printResources > div article ul li:hover {
     background-size: 2.75% auto;
+    background-color: #0BA6A6;
   }
   #printResources > div article ul li:active {
+    background-size: 2% auto;
     background-color: #077174;
   }
 }
@@ -2266,9 +2317,14 @@ footer > div article ul li:last-of-type {
 ============= */
 #envHero {
   background-color: #7140BF;
-  background-image: url("../img/environment/envHero2.png");
-  background-size: cover;
-  background-position: right top;
+  background-image: url("../img/environment/envHero3.png");
+  background-size: auto 140%;
+  background-position: 10% top;
+}
+@media (min-width: 456px) {
+  #envHero {
+    background-size: cover;
+  }
 }
 @media (min-width: 768px) {
   #envHero {
@@ -2277,7 +2333,7 @@ footer > div article ul li:last-of-type {
 }
 @media (min-width: 992px) {
   #envHero {
-    background-position: center 60%;
+    background-position: center 20%;
   }
 }
 /* =============
@@ -2785,10 +2841,11 @@ footer > div article ul li:last-of-type {
 }
 @media (min-width: 992px) {
   #envResources > div article ul li:hover {
-    background-size: 1.95% auto;
+    background-size: 1.85% auto;
   }
   #envResources > div article ul li:active {
     background-color: #543294;
+    background-size: 1.25% auto;
   }
 }
 

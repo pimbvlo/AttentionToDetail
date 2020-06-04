@@ -20,7 +20,7 @@ h1 {
     font-weight: 800;
     letter-spacing: rem-calc(0.56);
     line-height: rem-calc(40);
-    // text-transform: capitalize;
+    text-transform: capitalize;
     @include md {
         font-size: rem-calc(56);
         letter-spacing: rem-calc(0.88);

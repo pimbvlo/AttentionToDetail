@@ -105,6 +105,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/environment/envHero3.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/environment/envHero3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/environment/envTactileMessaging1.png": {
 		"ft": 32768,
 		"iS": 940099,
@@ -262,36 +273,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/global/LogoWhite.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/index/button1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/index/button1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/index/button2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/index/button2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/index/button3.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/index/button3.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -482,6 +463,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/global/burger-container.html",
+		"oF": 0
+		},
+	"/dev/global/footer-medium.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/footer-medium.html",
 		"oF": 0
 		},
 	"/dev/global/footer.kit": {

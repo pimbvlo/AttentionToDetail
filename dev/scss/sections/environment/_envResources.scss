@@ -33,10 +33,11 @@
                 }
                 @include lg {
                     li:hover{
-                        background-size: 1.95% auto;
+                        background-size: 1.85% auto;
                     }
                     li:active {
                         background-color: $secondary-purple-dark1;
+                        background-size: 1.25% auto;
 
                     }
                 }

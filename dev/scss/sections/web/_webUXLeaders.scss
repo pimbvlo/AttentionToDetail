@@ -26,7 +26,13 @@
                 }
 
                 li {
-                    figure {}
+                    cursor: pointer;
+                    @include lg {
+                    }
+
+                    figure {
+                        background-color: $secondary-red-light2;
+                    }
 
                     div {
                         p:nth-child(2) {}

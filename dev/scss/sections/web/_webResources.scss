@@ -36,6 +36,8 @@
 
                     }
                     li:active {
+                        background-size: 1.25% auto;
+
                         background-color: $secondary-red;
                     }
                 }

@@ -26,17 +26,17 @@ body {
     //     background-color: $grey-dark;
     //     color: $white;
     // }
-    // ::selection {
-    //     background: $orange;
-    //     color: $dark-purple;
-    //     opacity: 0.99;
-    // }
-    //
-    // ::-moz-selection {
-    //     background: $orange;
-    //     color: $dark-purple;
-    //     opacity: 0.99;
-    // }
+    ::selection {
+        background: $tertiary-amber;
+        color: $black;
+        opacity: 0.5;
+    }
+
+    ::-moz-selection {
+        background: $tertiary-amber;
+        color: $black;
+        opacity: 0.5;
+    }
 }
 /**
  * Correct the font size and margin on `h1` elements within `section` and
