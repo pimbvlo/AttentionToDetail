@@ -278,6 +278,36 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/index/button1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/index/button1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/index/button2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/index/button2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/index/button3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/index/button3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/index/indexHello.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -449,6 +479,28 @@
 		"oAP": "/deploy/medium/web.html",
 		"oF": 0
 		},
+	"/deploy/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/deploy/node_modules",
+		"oF": 0
+		},
+	"/deploy/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/deploy/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/deploy/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/deploy/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/dev/environment.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -567,6 +619,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/global/header.html",
+		"oF": 0
+		},
+	"/dev/global/links-medium.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/links-medium.html",
 		"oF": 0
 		},
 	"/dev/global/links.kit": {
@@ -784,6 +844,17 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/tilt.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/tilt-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},

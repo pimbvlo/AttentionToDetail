@@ -520,7 +520,7 @@ h1 {
   font-weight: 800;
   letter-spacing: 0.035rem;
   line-height: 2.5rem;
-  text-transform: capitalize;
+  font-family: "Roboto Slab", serif;
 }
 @media (min-width: 768px) {
   h1 {
@@ -543,6 +543,7 @@ h2 {
   letter-spacing: 0.02375rem;
   line-height: 1.75rem;
   text-transform: capitalize;
+  font-family: "Roboto Slab", serif;
   margin-bottom: 12px;
 }
 @media (min-width: 768px) {
@@ -605,17 +606,21 @@ p span {
 
 a {
   color: #003A4C;
-  font-weight: 600;
+  font-weight: 900;
+  letter-spacing: 0.025rem;
   text-decoration: none;
   transition: all 0.15s ease-in-out;
   text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   color: #003A4C;
 }
 
-a:hover, a:active {
+a:active,
+a:hover {
   color: #077174;
 }
 
@@ -708,19 +713,17 @@ a:hover, a:active {
 .card-person {
   background-color: #FAFAFA;
   border-radius: 16px;
-  transition: all 0.25s ease-in-out;
+  transform-style: preserve-3d;
   box-shadow: 0 5px 3px -3px rgba(19, 22, 24, 0.06), 0 3px 14px 2px rgba(19, 22, 24, 0.12), 0 8px 10px 1px rgba(19, 22, 24, 0.04);
 }
 .card-person:hover {
   box-shadow: 0 10px 8px -8px rgba(19, 22, 24, 0.04), 0 8px 19px 7px rgba(19, 22, 24, 0.1), 0 13px 15px 6px rgba(19, 22, 24, 0.02);
-  transform: translate(0px, -4px) scale(1.04);
-  transition: all 0.25s ease-in-out;
-}
-.card-person:hover figure {
-  opacity: 0.9;
 }
 .card-person a {
   color: #1A1A1A;
+}
+.card-person a:active, .card-person a:hover {
+  background-color: 0, 0, 0, 0;
 }
 .card-person a figure {
   border-radius: 16px 16px 0 0;
@@ -755,6 +758,7 @@ a:hover, a:active {
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 16px;
+  transform: translateZ(24px);
 }
 @media (min-width: 456px) {
   .card-person a div {
@@ -836,41 +840,20 @@ textarea {
   margin-right: 0px;
   margin-top: 0px;
 }
-@media (prefers-color-scheme: dark) {
-  #sm-nav ul li h6 {
-    color: #FAFAFA;
-  }
-}
 #sm-nav ul li h6 a {
   color: #FAFAFA;
   text-decoration: none;
   transition: 0.25s;
   font-weight: 600;
-}
-@media (prefers-color-scheme: dark) {
-  #sm-nav ul li h6 a {
-    color: #FAFAFA;
-  }
+  font-family: "Montserrat", sans-serif;
 }
 #sm-nav ul li h6 a:link,
 #sm-nav ul li h6 a:visited {
   color: #FAFAFA;
 }
-@media (prefers-color-scheme: dark) {
-  #sm-nav ul li h6 a:link,
-#sm-nav ul li h6 a:visited {
-    color: #FAFAFA;
-  }
-}
 #sm-nav ul li h6 a:active,
 #sm-nav ul li h6 a:hover {
   border-bottom: 4px solid #FAFAFA;
-}
-@media (prefers-color-scheme: dark) {
-  #sm-nav ul li h6 a:active,
-#sm-nav ul li h6 a:hover {
-    border-bottom: 4px solid #FAFAFA;
-  }
 }
 #sm-nav ul li:nth-last-child(1) h6 {
   margin-bottom: 0px;
@@ -985,6 +968,7 @@ footer > div article ul li a h3 {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
+  font-family: "Montserrat", sans-serif;
 }
 footer > div article ul li a:link, footer > div article ul li a:visited {
   color: #FAFAFA;
@@ -1026,7 +1010,8 @@ footer > div article ul li:last-of-type {
   align-items: center;
   justify-content: flex-end;
   background-color: #003A4C;
-  border-radius: 0px 16px 16px 0px;
+  border-radius: 0 16px 16px 0;
+  transform-style: preserve-3d;
   margin-top: 40vh;
   box-shadow: 0 1px 7px -3px rgba(19, 22, 24, 0.08), 0 4px 24px 4px rgba(19, 22, 24, 0.05), 0 16px 20px 1px rgba(19, 22, 24, 0.06);
 }
@@ -1038,7 +1023,7 @@ footer > div article ul li:last-of-type {
 @media (min-width: 768px) {
   #indexHero > div {
     justify-content: flex-start;
-    border-radius: 24px 0px 0px 24px;
+    border-radius: 24px 0 0 24px;
     margin-top: 32vh;
   }
 }
@@ -1065,9 +1050,11 @@ footer > div article ul li:last-of-type {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
+  transform: translateZ(104px);
 }
 #indexHero > div article h3 {
   color: #FAFAFA;
+  transform: translateZ(56px);
   margin-bottom: 16px;
   margin-left: 0px;
   margin-right: 0px;
@@ -1090,9 +1077,11 @@ footer > div article ul li:last-of-type {
 }
 #indexHero > div article h3 span {
   font-weight: 700;
+  font-family: "Roboto Slab", serif;
 }
 #indexHero > div article svg {
   width: 200px;
+  transform: translateZ(104px);
 }
 /* =============
     Index Accessibility
@@ -1146,6 +1135,7 @@ footer > div article ul li:last-of-type {
   }
 }
 #indexMedium > div article ul li {
+  transform-style: preserve-3d;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1155,21 +1145,7 @@ footer > div article ul li:last-of-type {
   border-radius: 16px;
   background-color: #003A4C;
   box-shadow: 0 5px 3px -3px rgba(19, 22, 24, 0.06), 0 3px 14px 2px rgba(19, 22, 24, 0.12), 0 8px 10px 1px rgba(19, 22, 24, 0.04);
-  transition: all 0.25s ease-in-out;
   cursor: pointer;
-}
-#indexMedium > div article ul li h2 {
-  margin: 0;
-  line-height: 0;
-}
-#indexMedium > div article ul li h2 a {
-  margin: 0;
-  height: 100%;
-  color: #FAFAFA;
-}
-#indexMedium > div article ul li h2 a:link,
-#indexMedium > div article ul li h2 a:visited {
-  color: #FAFAFA;
 }
 #indexMedium > div article ul li a {
   height: 144px;
@@ -1203,6 +1179,7 @@ footer > div article ul li:last-of-type {
   #indexMedium > div article ul li a h2 {
     font-size: 2rem;
     letter-spacing: 0.045rem;
+    transform: translate(0px, 8px) translateZ(104px);
   }
 }
 #indexMedium > div article ul li:nth-child(1) {
@@ -1234,14 +1211,11 @@ footer > div article ul li:last-of-type {
 @media (min-width: 992px) {
   #indexMedium > div article ul li:hover {
     box-shadow: 0 10px 8px -8px rgba(19, 22, 24, 0.04), 0 8px 19px 7px rgba(19, 22, 24, 0.1), 0 13px 15px 6px rgba(19, 22, 24, 0.02);
-    transform: translate(0px, -4px) scale(1.04);
-    transition: all 0.25s ease-in-out;
   }
   #indexMedium > div article ul li:hover a {
     opacity: 1;
   }
   #indexMedium > div article ul li:active {
-    transition: all 0.1s ease-in-out;
     opacity: 0.85;
   }
 }
@@ -2033,7 +2007,7 @@ footer > div article ul li:last-of-type {
 #webUXLeaders > div article ul li {
   cursor: pointer;
 }
-#webUXLeaders > div article ul li figure {
+#webUXLeaders > div article ul li a figure {
   background-color: #F28092;
 }
 #webUXLeaders > div article ul li:nth-child(1) {
@@ -2110,6 +2084,9 @@ footer > div article ul li:last-of-type {
   background-image: url("../img/web/webButtonHalftone1.svg");
   background-color: #72051B;
   background-size: 3.75% auto;
+}
+#webResources > div article ul li p a {
+  font-family: "Montserrat", sans-serif;
 }
 #webResources > div article ul li:link,
 #webResources > div article ul li:visited {
@@ -2291,6 +2268,9 @@ footer > div article ul li:last-of-type {
   background-image: url("../img/print/printButtonHalftone1.svg");
   background-color: #003A4C;
   background-size: 3.25% auto;
+}
+#printResources > div article ul li p a {
+  font-family: "Montserrat", sans-serif;
 }
 #printResources > div article ul li::after {
   background-color: #FAFAFA;
@@ -2832,6 +2812,9 @@ footer > div article ul li:last-of-type {
   background-image: url("../img/environment/envButtonHalftone1.svg");
   background-color: #7140BF;
   background-size: 2% auto;
+}
+#envResources > div article ul li p a {
+  font-family: "Montserrat", sans-serif;
 }
 #envResources > div article ul li:link,
 #envResources > div article ul li:visited {

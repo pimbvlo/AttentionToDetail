@@ -9,75 +9,74 @@
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: auto 200%;
-    @include sm{
+    @include sm {
         background-size: auto 180%;
     }
-    @include md{
+    @include md {
         grid-template-areas: ". content content";
         background-size: cover;
-
     }
-    > div{
+
+    > div {
         display: flex;
         align-items: center;
         justify-content: flex-end;
         background-color: $primary-dark-blue;
-        border-radius: 0px 16px 16px 0px;
+        border-radius: 0 16px 16px 0;
+        transform-style: preserve-3d;
         @include margin(40vh,null,null,null);
         box-shadow: 0 1px 7px -3px rgba(19, 22, 24, .08), 0 4px 24px 4px rgba(19, 22, 24, .05), 0 16px 20px 1px rgba(19, 22, 24, .06);
-        @include sm{
+        @include sm {
             @include margin(48vh,null,null,null);
-
-
         }
-        @include md{
+        @include md {
             justify-content: flex-start;
-
-            border-radius: 24px 0px 0px 24px;
+            border-radius: 24px 0 0 24px;
             @include margin(32vh,null,null,null);
-
-
         }
-        article{
+
+        article {
             @include margin(0px,56px,0px,16px);
-            @include md{
+            @include md {
                 @include margin(null,0px,null,32px);
             }
-            @include lg{
+            @include lg {
                 @include margin(null,0px,null,40px);
             }
-                h1{
-                    @include margin(0px,0px,16px,0px);
 
+            h1 {
+                @include margin(0px,0px,16px,0px);
+                transform: translateZ(104px);
+            }
+
+            h3 {
+                color: $white;
+                transform: translateZ(56px);
+
+                @include margin(0px,0px,16px,0px);
+                @include sm {
+                    width: 64%;
                 }
-                h3{
-                    color: $white;
-                    @include margin(0px,0px,16px,0px);
-                    @include sm{
-                        width: 64%;
-
-                    }
-                    @include md{
-                        width: 48%;
-
-                    }
-                    @include lg{
-                        width: 32%;
-
-                    }
-
-                    span{
-                        font-weight: 700;
-
-                    }
-
+                @include md {
+                    width: 48%;
                 }
-                svg{
-                    width: 200px;
-                    path{}
+                @include lg {
+                    width: 32%;
                 }
 
+                span {
+                    font-weight: 700;
+                    font-family: 'Roboto Slab', serif;
 
+                }
+            }
+
+            svg {
+                width: 200px;
+                transform: translateZ(104px);
+
+                path {}
+            }
         }
     }
 }

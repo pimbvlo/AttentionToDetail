@@ -8,6 +8,7 @@
         article {
             h2 {
                 color: $primary-dark-blue;
+
             }
 
             ul {
@@ -20,6 +21,7 @@
                 }
 
                 li {
+                    transform-style: preserve-3d;
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
@@ -29,24 +31,25 @@
                     border-radius: 16px;
                     background-color: $primary-dark-blue;
                     box-shadow: 0 5px 3px -3px rgba(19, 22, 24, .06), 0 3px 14px 2px rgba(19, 22, 24, .12), 0 8px 10px 1px rgba(19, 22, 24, .04);
-                    transition: all 0.25s ease-in-out;
+                    // transition: all 0.25s ease-in-out;
                     cursor: pointer;
 
-                    h2 {
-                        margin: 0;
-                        line-height: rem-calc(0);
-
-                        a {
-                            margin: 0;
-                            height: 100%;
-                            color: $white;
-                        }
-
-                        a:link,
-                        a:visited {
-                            color: $white;
-                        }
-                    }
+                    // h2 {
+                    //     margin: 0;
+                    //     line-height: rem-calc(0);
+                    //     font-family: 'Montserrat', sans-serif;
+                    //
+                    //     a {
+                    //         margin: 0;
+                    //         height: 100%;
+                    //         color: $white;
+                    //     }
+                    //
+                    //     a:link,
+                    //     a:visited {
+                    //         color: $white;
+                    //     }
+                    // }
 
                     a {
                         height: 144px;
@@ -54,6 +57,7 @@
                         justify-content: center;
                         align-items: center;
                         width: 100%;
+
                         @include md {
                             height: 168px;
                         }
@@ -65,6 +69,7 @@
                             color: $white;
                             font-weight: 700;
                             line-height: rem-calc(0);
+
                             @include md {
                                 font-size: rem-calc(24);
                                 letter-spacing: rem-calc(0.38);
@@ -72,6 +77,8 @@
                             @include lg {
                                 font-size: rem-calc(32);
                                 letter-spacing: rem-calc(0.72);
+                                transform: translate(0px, 8px) translateZ(104px);
+
                             }
                         }
                     }
@@ -108,8 +115,8 @@
                 @include lg {
                     li:hover {
                         box-shadow: 0 10px 8px -8px rgba(19, 22, 24, .04), 0 8px 19px 7px rgba(19, 22, 24, .10), 0 13px 15px 6px rgba(19, 22, 24, .02);
-                        transform: translate(0px, -4px) scale(1.04);
-                        transition: all 0.25s ease-in-out;
+                        // transform: translate(0px, -4px) scale(1.04);
+                        // transition: all 0.25s ease-in-out;
 
                         a {
                             opacity: 1;
@@ -117,7 +124,7 @@
                     }
 
                     li:active {
-                        transition: all 0.1s ease-in-out;
+                        // transition: all 0.1s ease-in-out;
                         opacity: 0.85;
                     }
                 }

@@ -18,6 +18,8 @@
 
                     p {
                         a {
+                            font-family: 'Montserrat', sans-serif;
+
                         }
                     }
                 }
@@ -27,9 +29,6 @@
                     background-image: url("../img/environment/envButtonHalftone1.svg");
                     background-color: $secondary-purple;
                     background-size: 2% auto;
-
-                    p {
-                    }
                 }
                 @include lg {
                     li:hover{

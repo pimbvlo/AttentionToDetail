@@ -23,35 +23,38 @@
                 transition: all 0.25s;
                 width: 100%;
                 text-align: right;
+
                 @include margin(0px, 0px, 32px, 0);
-                @include dark {
-                    color: $white;
-                }
+                // @include dark {
+                //     color: $white;
+                // }
 
                 a {
                     color: $white;
                     text-decoration: none;
                     transition: 0.25s;
                     font-weight: 600;
-                    @include dark {
-                        color: $white;
-                    }
+                    font-family: 'Montserrat', sans-serif;
+
+                    // @include dark {
+                    //     color: $white;
+                    // }
                 }
 
                 a:link,
                 a:visited {
                     color: $white;
-                    @include dark {
-                        color: $white;
-                    }
+                    // @include dark {
+                    //     color: $white;
+                    // }
                 }
 
                 a:active,
                 a:hover {
                     border-bottom: 4px solid $white;
-                    @include dark {
-                        border-bottom: 4px solid $white;
-                    }
+                    // @include dark {
+                    //     border-bottom: 4px solid $white;
+                    // }
                 }
             }
         }
