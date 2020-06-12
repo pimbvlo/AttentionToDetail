@@ -69,16 +69,16 @@
                             color: $white;
                             font-weight: 700;
                             line-height: rem-calc(0);
-
+                            transform: translate(0px, 4px) translateZ(56px);
                             @include md {
                                 font-size: rem-calc(24);
                                 letter-spacing: rem-calc(0.38);
+                                transform: translate(0px, 8px) translateZ(104px);
+
                             }
                             @include lg {
                                 font-size: rem-calc(32);
                                 letter-spacing: rem-calc(0.72);
-                                transform: translate(0px, 8px) translateZ(104px);
-
                             }
                         }
                     }

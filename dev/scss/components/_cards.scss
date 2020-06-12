@@ -10,9 +10,10 @@
 
 	&:hover {
 		box-shadow: 0 10px 8px -8px rgba(19, 22, 24, .04), 0 8px 19px 7px rgba(19, 22, 24, .10), 0 13px 15px 6px rgba(19, 22, 24, .02);
-		// transform: translate(0px, -4px) scale(1.04);
-		// transition: all 0.25s ease-in-out;
+
 		figure {}
+
+		div {}
 	}
 
 	a {
@@ -46,16 +47,15 @@
 
 		div {
 			@include padding(16px,16px,16px,16px);
-			transform: translateZ(24px);
+			transform: translate(0px, -8px) translateZ(24px);
+
 			@include sm {
 				@include padding(24px,24px,24px,24px);
 			}
 
-			p:nth-child(2) {
-			}
+			p:nth-child(2) {}
 
-			p:nth-child(3) {
-			}
+			p:nth-child(3) {}
 		}
 	}
 }

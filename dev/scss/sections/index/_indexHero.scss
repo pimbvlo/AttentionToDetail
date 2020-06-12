@@ -46,12 +46,13 @@
 
             h1 {
                 @include margin(0px,0px,16px,0px);
-                transform: translateZ(104px);
+                @include lg{
+                    transform: translateZ(104px);
+                }
             }
 
             h3 {
                 color: $white;
-                transform: translateZ(56px);
 
                 @include margin(0px,0px,16px,0px);
                 @include sm {
@@ -62,6 +63,8 @@
                 }
                 @include lg {
                     width: 32%;
+                    transform: translateZ(56px);
+
                 }
 
                 span {
@@ -73,7 +76,10 @@
 
             svg {
                 width: 200px;
-                transform: translateZ(104px);
+
+                @include lg{
+                    transform: translateZ(104px);
+                }
 
                 path {}
             }

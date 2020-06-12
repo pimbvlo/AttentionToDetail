@@ -758,7 +758,7 @@ a:hover {
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 16px;
-  transform: translateZ(24px);
+  transform: translate(0px, -8px) translateZ(24px);
 }
 @media (min-width: 456px) {
   .card-person a div {
@@ -1050,11 +1050,14 @@ footer > div article ul li:last-of-type {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
-  transform: translateZ(104px);
+}
+@media (min-width: 992px) {
+  #indexHero > div article h1 {
+    transform: translateZ(104px);
+  }
 }
 #indexHero > div article h3 {
   color: #FAFAFA;
-  transform: translateZ(56px);
   margin-bottom: 16px;
   margin-left: 0px;
   margin-right: 0px;
@@ -1073,6 +1076,7 @@ footer > div article ul li:last-of-type {
 @media (min-width: 992px) {
   #indexHero > div article h3 {
     width: 32%;
+    transform: translateZ(56px);
   }
 }
 #indexHero > div article h3 span {
@@ -1081,7 +1085,11 @@ footer > div article ul li:last-of-type {
 }
 #indexHero > div article svg {
   width: 200px;
-  transform: translateZ(104px);
+}
+@media (min-width: 992px) {
+  #indexHero > div article svg {
+    transform: translateZ(104px);
+  }
 }
 /* =============
     Index Accessibility
@@ -1168,18 +1176,19 @@ footer > div article ul li:last-of-type {
   color: #FAFAFA;
   font-weight: 700;
   line-height: 0;
+  transform: translate(0px, 4px) translateZ(56px);
 }
 @media (min-width: 768px) {
   #indexMedium > div article ul li a h2 {
     font-size: 1.5rem;
     letter-spacing: 0.02375rem;
+    transform: translate(0px, 8px) translateZ(104px);
   }
 }
 @media (min-width: 992px) {
   #indexMedium > div article ul li a h2 {
     font-size: 2rem;
     letter-spacing: 0.045rem;
-    transform: translate(0px, 8px) translateZ(104px);
   }
 }
 #indexMedium > div article ul li:nth-child(1) {
@@ -2009,6 +2018,9 @@ footer > div article ul li:last-of-type {
 }
 #webUXLeaders > div article ul li a figure {
   background-color: #F28092;
+}
+#webUXLeaders > div article ul li a div {
+  transform: translate(0px, -8px) translateZ(24px);
 }
 #webUXLeaders > div article ul li:nth-child(1) {
   grid-area: pablo;
