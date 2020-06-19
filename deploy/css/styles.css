@@ -924,6 +924,59 @@ header #burger-container svg .burger-lines {
 }
 
 /* =============
+    Back Button
+============= */
+#back_button {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 1000;
+  transition: all 0.2s ease-in-out;
+}
+@media (min-width: 768px) {
+  #back_button {
+    bottom: 32px;
+    right: 16px;
+  }
+}
+@media (min-width: 992px) {
+  #back_button {
+    right: 32px;
+  }
+  #back_button:hover {
+    box-shadow: none;
+    transform: translate(0px, 4px) scale(0.98);
+    transition: all 0.2s ease-in-out;
+  }
+}
+#back_button > div article h3 a {
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.05), 0 1px 10px 0 rgba(0, 0, 0, 0.03), 0 4px 5px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 104px;
+  padding: 8px 16px;
+  height: 100%;
+  weight: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  #back_button > div article h3 a {
+    font-size: 1.125rem;
+    padding: 8px 32px;
+  }
+}
+#back_button > div article h3 a:link, #back_button > div article h3 a:visited {
+  color: #6613CE;
+  background-color: #FCFCFC;
+  transition: all 0.25s ease-in-out;
+}
+#back_button > div article h3 a:active, #back_button > div article h3 a:hover {
+  color: #FCFCFC;
+  background-color: #0D001E;
+  transition: all 0.25s ease-in-out;
+}
+
+/* =============
     Footer
 ============= */
 footer {
