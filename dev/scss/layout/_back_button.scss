@@ -5,7 +5,7 @@
     position: fixed;
     bottom: 16px;
     right: 16px;
-    z-index: 1000;
+    z-index: 10000;
     transition: all 0.2s ease-in-out;
     @include md {
         bottom: 32px;
